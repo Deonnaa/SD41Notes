@@ -1,6 +1,6 @@
 ## [Week 1](https://github.com/SkillDistillery/SD41/blob/main/jfop/README.md)
 
-## Week 1 - Day 1
+### Week 1 - Day 1
 
 #### Day One System Setup
 
