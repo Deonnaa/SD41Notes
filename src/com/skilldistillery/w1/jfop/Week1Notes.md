@@ -13,6 +13,7 @@
 6. Labs
 
 `simpleprograms/drills/Hello.java`
+
 ```java
 public class Hello {
 
@@ -23,6 +24,7 @@ public class Hello {
 ```
 
 `Lab 1 - HelloName.java`
+
 ```java
 public class HelloName {
 
@@ -33,6 +35,7 @@ public class HelloName {
 ```
 
 `Lab 2 - TwoPrints.java`
+
 ```java
 public class TwoPrints {
 
@@ -45,6 +48,7 @@ public class TwoPrints {
 ```
 
 `Lab 3 - HelloTabs.java`
+
 ```java
 public class HelloTabs {
 
@@ -57,6 +61,7 @@ public class HelloTabs {
 ```
 
 `Lab 4 - HelloStars.java`
+
 ```java
 public class HelloStars {
 
@@ -71,6 +76,7 @@ public class HelloStars {
 ```
 
 `Lab 5 - Testing123.java`
+
 ```java
 public class Testing123 {
 
@@ -99,6 +105,7 @@ public class Testing123 {
 7. Labs
 
 `variablesandconstants/drills/VariableNaming.java`
+
 ```java
 public class VariableNaming {
 
@@ -111,6 +118,7 @@ public class VariableNaming {
 ```
 
 `variablesandconstants/drills/Assign.java`
+
 ```java
 public class Assign {
 
@@ -132,6 +140,7 @@ public class Assign {
 ```
 
 `variablesandconstants/drills/PrintingExample.java`
+
 ```java
 public class PrintingExample {
 
@@ -148,6 +157,7 @@ public class PrintingExample {
 ```
 
 `variablesandconstants/drills/VariablePrinting.java`
+
 ```java
 public class VariablePrinting {
 
@@ -163,6 +173,7 @@ public class VariablePrinting {
 ```
 
 `Lab 1 - AgeInitial.java`
+
 ```java
 public class AgeInitial {
 
@@ -177,6 +188,7 @@ public class AgeInitial {
 ```
 
 `Lab 2 - StudentScores.java`
+
 ```java
 public class StudentScores {
 
@@ -207,6 +219,7 @@ public class StudentScores {
 5. Labs
 
 `introtomethods/drills/CallingMethods.java`
+
 ```java
 public class CallingMethods {
 
@@ -244,6 +257,7 @@ public class CallingMethods {
 ```
 
 `Lab 1 - MyName.java`
+
 ```java
 public class MyName {
 
@@ -275,6 +289,7 @@ public class MyName {
 5. Labs
 
 `screenoutputkeyboardinput/drills/Formatting.java`
+
 ```java
 public class Formatting {
 
@@ -285,6 +300,7 @@ public class Formatting {
 ```
 
 `screenoutputkeyboardinput/drills/StringOutput.java`
+
 ```java
 public class StringOutput {
 
@@ -308,6 +324,7 @@ public class StringOutput {
 ```
 
 `screenoutputkeyboardinput/drills/ScannerInput.java`
+
 ```java
 public class ScannerInput {
 
@@ -327,6 +344,7 @@ public class ScannerInput {
 ```
 
 `screenoutputkeyboardinput/drills/ScannerInput.java`
+
 ```java
 public class ScannerInput {
 
@@ -357,6 +375,7 @@ public class ScannerInput {
 ```
 
 `Lab 1 - FiveIntegers.java`
+
 ```java
 public class FiveIntegers {
 
@@ -394,6 +413,7 @@ public class FiveIntegers {
 ```
 
 `Lab 2 - ThreeVariables.java`
+
 ```java
 public class ThreeVariables {
 
@@ -441,6 +461,7 @@ public class ThreeVariables {
 11. Labs
 
 `Expressions/src/drills/Assignment.java`
+
 ```java
 public class Assignment {
 
@@ -466,6 +487,7 @@ public class Assignment {
 ```
 
 `Expressions/src/drills/Arithmetic.java`
+
 ```java
 public class Arithmetic {
 
@@ -510,6 +532,7 @@ public class Arithmetic {
 ```
 
 `Expressions/src/drills/MilesPerGallon.java`
+
 ```java
 public class MilesPerGallon {
 	public static void main(String[] args) {
@@ -538,6 +561,7 @@ public class MilesPerGallon {
 ```
 
 `Expressions/src/drills/Relational.java`
+
 ```java
 public class Relational {
 
@@ -562,6 +586,7 @@ public class Relational {
 ```
 
 `Expressions/src/drills/Logical.java`
+
 ```java
 public class Logical {
 
@@ -605,6 +630,7 @@ public class Logical {
 ```
 
 `Expressions/src/drills/Precedence.java`
+
 ```java
 public class Precedence {
 
@@ -643,6 +669,7 @@ public class Precedence {
 ```
 
 `Lab 1 - Circle1.java`
+
 ```java
 public class Circle1 {
 
@@ -666,6 +693,7 @@ public class Circle1 {
 ```
 
 `Lab 2 - Circle2.java`
+
 ```java
 public class Circle2 {
 
@@ -692,6 +720,7 @@ public class Circle2 {
 ```
 
 `Lab 3 - FahrToCels.java`
+
 ```java
 public class FahrToCels {
 
@@ -714,6 +743,7 @@ public class FahrToCels {
 ```
 
 `Lab 4 - CalculateTip.java`
+
 ```java
 public class CalculateTip {
 
@@ -739,6 +769,7 @@ public class CalculateTip {
 ```
 
 `Lab 5 - DailyRainfall.java`
+
 ```java
 public class DailyRainfall {
 
@@ -791,6 +822,7 @@ public class DailyRainfall {
 9. Labs
 
 `IfElse/src/drills/SalaryDecisions.java`
+
 ```java
 public class SalaryDecisions {
 	public static void main(String[] args) {
@@ -847,6 +879,7 @@ public class SalaryDecisions {
 ```
 
 `IfElse/src/drills/SalaryDecisions2.java`
+
 ```java
 public class SalaryDecisions2 {
 
@@ -885,6 +918,7 @@ public class SalaryDecisions2 {
 ```
 
 `IfElse/src/drills/SalaryDecisions3.java`
+
 ```java
 public class SalaryDecisions3 {
 
@@ -926,6 +960,7 @@ public class SalaryDecisions3 {
 ```
 
 `IfElse/src/drills/StringComparison.java`
+
 ```java
 public class StringComparison {
 
@@ -959,6 +994,7 @@ public class StringComparison {
 ```
 
 `Lab 1 - NumSign.java`
+
 ```java
 public class NumSign {
 
@@ -983,6 +1019,7 @@ public class NumSign {
 ```
 
 `Lab 2 - NumSignZero.java`
+
 ```java
 public class NumSignZero {
 
@@ -1009,6 +1046,7 @@ public class NumSignZero {
 ```
 
 `Lab 3 - NumFactors.java`
+
 ```java
 public class NumFactors {
 
@@ -1039,6 +1077,7 @@ public class NumFactors {
 ```
 
 `Lab 4 - IfCelsFahr.java`
+
 ```java
 public class IfCelsFahr {
 	public static void main(String[] args) {
@@ -1091,6 +1130,7 @@ public class IfCelsFahr {
 6. Labs
 
 `AdvancedExpressions/src/drills/PrePostIncrement.java`
+
 ```java
 public class PrePostIncrement {
 
@@ -1118,6 +1158,7 @@ public class PrePostIncrement {
 ```
 
 `Lab 1 - OddOrEven.java`
+
 ```java
 public class OddOrEven {
 
@@ -1138,6 +1179,7 @@ public class OddOrEven {
 ```
 
 `Lab 2 - Multiply.java`
+
 ```java
 public class Multiply {
 
@@ -1171,6 +1213,7 @@ public class Multiply {
 ```
 
 `Lab 3 - PosNegZero.java`
+
 ```java
 public class PosNegZero {
 
@@ -1199,6 +1242,7 @@ public class PosNegZero {
 4. Labs
 
 `Switch/src/drills/SwitchInvestigation.java`
+
 ```java
 public class SwitchInvestigation {
 
@@ -1241,6 +1285,7 @@ public class SwitchInvestigation {
 ```
 
 `Switch/src/drills/SwitchFallthrough.java`
+
 ```java
 public class SwitchFallthrough {
 
@@ -1285,6 +1330,7 @@ public class SwitchFallthrough {
 ```
 
 `Lab 1 - IfCelsFahrSwitch.java`
+
 ```java
 public class IfCelsFahrSwitch {
 
@@ -1328,6 +1374,7 @@ public class IfCelsFahrSwitch {
 ```
 
 `Lab 2 - CalculatorSwitch.java`
+
 ```java
 public class CalculatorSwitch {
 
@@ -1373,6 +1420,7 @@ public class CalculatorSwitch {
 9. Labs
 
 `WhileLoops/src/drills/WhileLoop.java`
+
 ```java
 public class WhileLoop {
 
@@ -1407,6 +1455,7 @@ public class WhileLoop {
 ```
 
 `WhileLoops/src/drills/WhileLoopSteps.java`
+
 ```java
 public class WhileLoopSteps {
 
@@ -1431,6 +1480,7 @@ public class WhileLoopSteps {
 ```
 
 `WhileLoops/src/drills/DoWhileLoop.java`
+
 ```java
 public class DoWhileLoop {
 
@@ -1457,6 +1507,7 @@ public class DoWhileLoop {
 ```
 
 `WhileLoops/src/drills/WhileLoopBreakContinue.java`
+
 ```java
 public class WhileLoopBreakContinue {
 
@@ -1497,6 +1548,7 @@ public class WhileLoopBreakContinue {
 ```
 
 `Lab 1 - LoopMenu.java`
+
 ```java
 public class LoopMenu {
 
@@ -1564,6 +1616,7 @@ public class LoopMenu {
 ```
 
 `Lab 2 - CalculatorLoop.java`
+
 ```java
 public class SimpleCalculator {
 
@@ -1646,6 +1699,7 @@ public class SimpleCalculator {
 10. Labs
 
 `Methods/src/drills/ClassWithMethodsLoop.java`
+
 ```java
 public class ClassWithMethodsLoop {
 	public static void main(String[] args) {
@@ -1667,6 +1721,7 @@ public class ClassWithMethodsLoop {
 ```
 
 `Methods/src/drills/CalculateBalanceRefactor.java`
+
 ```java
 public class CalculateBalanceRefactor {
 	public static void main(String[] args) {
@@ -1706,6 +1761,7 @@ public class CalculateBalanceRefactor {
 ```
 
 `Methods/src/drills/CalculateBalanceReturn.java`
+
 ```java
 public class CalculateBalanceReturn {
 	public static void main(String[] args) {
@@ -1745,6 +1801,7 @@ public class CalculateBalanceReturn {
 ```
 
 `Methods/src/drills/CalculateTemp.java`
+
 ```java
 public class CalculateTemp {
 
@@ -1795,6 +1852,7 @@ public class CalculateTemp {
 ```
 
 `Methods/src/drills/StringManipulation.java`
+
 ```java
 public class StringManipulation {
 
@@ -1832,6 +1890,7 @@ public class StringManipulation {
 ```
 
 `Methods/src/drills/PassByValue.java`
+
 ```java
 public class PassByValue {
 
@@ -1856,6 +1915,7 @@ public class PassByValue {
 ```
 
 `Lab 1 - PowerMethod.java`
+
 ```java
 public class PowerMethod {
 
@@ -1890,6 +1950,7 @@ public class PowerMethod {
 ```
 
 `Lab 2 - MPGCalculator.java`
+
 ```java
 public class MPGCalculator {
 	public static void main(String[] args) {
@@ -1914,6 +1975,7 @@ public class MPGCalculator {
 7. Labs
 
 `ForLoops/src/drills/ForLoop.java`
+
 ```java
 public class ForLoop {
 
@@ -1933,6 +1995,7 @@ public class ForLoop {
 ```
 
 `ForLoops/src/drills/ForLoopBody.java`
+
 ```java
 public class ForLoopBody {
 
@@ -1963,6 +2026,7 @@ public class ForLoopBody {
 ```
 
 `Forloops/src/drills/ForLoopBody2.java`
+
 ```java
 public class ForLoopBody2 {
 	public static void main(String[] args) {
@@ -1996,6 +2060,7 @@ public class ForLoopBody2 {
 ```
 
 `ForLoops/src/drills/ForLoopBreakContinue.java`
+
 ```java
 public class ForLoopBreakContinue {
 
@@ -2035,6 +2100,7 @@ public class ForLoopBreakContinue {
 ```
 
 `Lab 1 - Mult2.java`
+
 ```java
 public class Mult2 {
 
@@ -2050,6 +2116,7 @@ public class Mult2 {
 ```
 
 `Lab 2 - Pow2.java`
+
 ```java
 public class Pow2 {
 
@@ -2066,6 +2133,7 @@ public class Pow2 {
 ```
 
 `Lab 3 - Factorial.java`
+
 ```java
 public class Factorial {
 
@@ -2147,6 +2215,7 @@ s - as a string
 13. Labs
 
 `DataTypes/com.skilldistillery.datatypes.drills.CharAsInteger`
+
 ```java
 public class CharAsInteger {
 
@@ -2165,6 +2234,7 @@ public class CharAsInteger {
 ```
 
 `DataTypes/com.skilldistillery.datatypes.drills.CharPrinting`
+
 ```java
 public class CharPrinting {
 
@@ -2182,6 +2252,7 @@ public class CharPrinting {
 ```
 
 `DataTypes/com.skilldistillery.datatypes.drills.DeclaringPrimitives`
+
 ```java
 public class DeclaringPrimitives {
 
@@ -2219,6 +2290,7 @@ public class DeclaringPrimitives {
 ```
 
 `DataTypes/com.skilldistillery.datatypes.drills.FloatValues`
+
 ```java
 public class FloatValues {
 
@@ -2237,6 +2309,7 @@ public class FloatValues {
 ```
 
 `Lab 1 - Overflow.java`
+
 ```java
 public class Overflow {
 
@@ -2251,6 +2324,7 @@ public class Overflow {
 ```
 
 `Lab 2 - ValidInt.java`
+
 ```java
 public class ValidInt {
 
@@ -2301,6 +2375,7 @@ char c7 = s7;  // DOES NOT COMPILE
 ```
 
 `CastingDataTypes/com.skilldistillery.casting.drills.Promotion`
+
 ```java
 public class Promotion {
 
@@ -2323,6 +2398,7 @@ public class Promotion {
 ```
 
 `CastingDataTypes/com.skilldistillery.casting.drills.Division`
+
 ```java
 public class Division {
 
@@ -2377,6 +2453,7 @@ public class Division {
 ```
 
 `Lab 1 - Floor.java`
+
 ```java
 public class Floor {
 
@@ -2398,6 +2475,7 @@ public class Floor {
 ```
 
 `Lab 2 - Ceiling.java`
+
 ```java
 public class Ceiling {
 
@@ -2422,6 +2500,7 @@ public class Ceiling {
 ```
 
 `Lab 3 - Round.java`
+
 ```java
 public class Round {
 
@@ -2458,6 +2537,7 @@ public class Round {
 11. Labs
 
 `Arrays/src/drills/ArrayDeclare.java`
+
 ```java
 public class ArrayDeclare {
 
@@ -2477,6 +2557,7 @@ public class ArrayDeclare {
 ```
 
 `Arrays/src/drills/ArrayCreate.java`
+
 ```java
 public class ArrayCreate {
 
@@ -2503,6 +2584,7 @@ public class ArrayCreate {
 ```
 
 `Arrays/src/drills/ArrayAccess.java`
+
 ```java
 public class ArrayAccess {
 
@@ -2537,6 +2619,7 @@ public class ArrayAccess {
 ```
 
 `Arrays/src/drills/ArrayAccess2.java`
+
 ```java
 public class ArrayAccess2 {
 
@@ -2572,6 +2655,7 @@ public class ArrayAccess2 {
 ```
 
 `Arrays/src/drills/Iterating.java`
+
 ```java
 public class Iterating {
 
@@ -2611,6 +2695,7 @@ public class Iterating {
 ```
 
 `Arrays/src/drills/ArrayReferences.java`
+
 ```java
 public class ArrayReferences {
 
@@ -2674,6 +2759,7 @@ public class ArrayReferences {
 ```
 
 `Labs 1 - Week 1 - DayOfWeekIterating1.java`
+
 ```java
 public class Week 1 - DayOfWeekIterating1 {
 	public static void main(String[] args) {
@@ -2689,6 +2775,7 @@ public class Week 1 - DayOfWeekIterating1 {
 ```
 
 `Labs 1 - Week 1 - DayOfWeekIterating2.java`
+
 ```java
 public class Week 1 - DayOfWeekIterating2 {
 	public static void main(String[] args) {
@@ -2705,6 +2792,7 @@ public class Week 1 - DayOfWeekIterating2 {
 ```
 
 `Labs 2 - AverageScores.java`
+
 ```java
 public class AverageScores {
 
@@ -2773,6 +2861,7 @@ public class AverageScores {
 ```
 
 `Labs 3 - RandomString.java`
+
 ```java
 public class RandomString {
 	public static void main(String[] args) {
@@ -2797,6 +2886,7 @@ public class RandomString {
 8. Labs
 
 `IntroToObjects/src/drills/SphereCreation.java`
+
 ```java
 public class SphereCreation {
 
@@ -2824,6 +2914,7 @@ public class SphereCreation {
 ```
 
 `IntroToObjects/src/drills/SphereReferences.java`
+
 ```java
 public class SphereReferences {
 
@@ -2849,11 +2940,13 @@ public class SphereReferences {
 ```
 
 `IntroToObjects/src/drills/SphereWithColor.java`
+
 ```java
 Example
 ```
 
 `IntroToObjects/src/drills/SphereWithColorTest.java`
+
 ```java
 Example
 ```
@@ -2905,6 +2998,7 @@ scanner.close();
 ```
 
 `Lab 1 - Car.java`
+
 ```java
 public class Car {
 	public String make;
@@ -2925,6 +3019,7 @@ public class Car {
 ```
 
 `Lab 2 - CarTester.java`
+
 ```java
 public class CarTester {
 
@@ -2950,6 +3045,7 @@ public class CarTester {
 ```
 
 `Lab 3 - DMVSimulator.java`
+
 ```java
 public class DMVSimulator {
 	public static void main(String[] args) {
@@ -2996,6 +3092,7 @@ public class DMVSimulator {
 4. Labs
 
 `AdvancedForLoops/src/drills/NestedFor1.java`
+
 ```java
 public class NestedFor1 {
 
@@ -3014,6 +3111,7 @@ public class NestedFor1 {
 ```
 
 `AdvancedForLoops/src/drills/NestedFor2.java`
+
 ```java
 public class NestedFor2 {
 
@@ -3037,6 +3135,7 @@ public class NestedFor2 {
 ```
 
 `AdvancedForLoops/src/drills/ForEach.java`
+
 ```java
 public class ForEach {
 
@@ -3114,6 +3213,7 @@ public class ForEach {
 ```
 
 `AdvancedForLoops/src/drills/ForEachBreakContinue.java`
+
 ```java
 public class ForEachBreakContinue {
 
@@ -3144,6 +3244,7 @@ public class ForEachBreakContinue {
 ```
 
 `Lab 1 - MinMaxFor.java`
+
 ```java
 public class MinMaxFor {
 	public static void main(String[] args) {
@@ -3170,6 +3271,7 @@ public class MinMaxFor {
 ```
 
 `Lab 2 - MinMaxForEach.java`
+
 ```java
 public class MinMaxForEach {
 	public static void main(String[] args) {
@@ -3192,6 +3294,7 @@ public class MinMaxForEach {
 ```
 
 `Lab 3 - MinMaxWhile.java`
+
 ```java
 public class MinMaxWhile {
 	public static void main(String[] args) {
@@ -3216,6 +3319,7 @@ public class MinMaxWhile {
 ```
 
 `Lab 4 - MinMaxPrompt.java`
+
 ```java
 public class MinMaxPrompt {
   public static void main(String[] args) {
@@ -3259,6 +3363,7 @@ public class MinMaxPrompt {
 9. Labs
 
 `AdvancedArrays/com.skilldistillery.advancedarrays.drills.ArrayOfObjects`
+
 ```java
 //PopStar.java
 public class PopStar {
@@ -3319,6 +3424,7 @@ public class ArrayOfObjects {
 ```
 
 `AdvancedArrays/com.skilldistillery.advancedarrays.drills.ReturningArrays`
+
 ```java
 public class PopStar {
 	public String name;
@@ -3339,6 +3445,7 @@ public class PopStar {
 ```
 
 `ReturningArrays.java`
+
 ```java
 public class ReturningArrays {
 	public static void main(String[] args) {
@@ -3492,6 +3599,7 @@ public class MultiDeclare {
 ```
 
 `AdvancedArrays/com.skilldistillery.advancedarrays.drills.VarArgsBand`
+
 ```java
 public class VarArgsBand {
 
@@ -3545,3483 +3653,3 @@ public class SBScores {
 ```
 
 #### Project: Tic Tac Toe
-
-## [Week 2](https://github.com/SkillDistillery/SD41/blob/main/java1/README.md)
-
-### Week 2 - Day 1
-
-#### Packages
-1. Namespaces
-2. Introduction to Java Packages
-3. Creating Packages
-4. Package Names
-5. Imports
-6. Static Imports
-7. Labs
-
-```java
-package com.skilldistillery.directorypath; //To minimize the chance of package name collisions.
-```
-
-```java
-import com.skilldistillery.utilities.parsing.Parser; //To be able to use Parser.
-import com.skilldistillery.utilities.parsing.*; //To be able to use all objects, does not use memory.
-
-//main method
-Parser parser = new Parser();
-parser.parse();
-```
-
-`Lab 1 - ProductMain`
-```java
-package com.skilldistillery.packages.labs;
-
-public class ProductMainStatics {
-
-  Product product;
-
-  public static void main(String[] args) {
-    ProductMainStatics app = new ProductMainStatics();
-    app.go();
-  }
-
-  public ProductMainStatics() {
-    product = new Product();
-  }
-
-  public void go() {
-    utilMethod();
-    helperMethod();
-  }
-}
-```
-
-#### String and StringBuilder
-1. The String Class
-2. The String Pool
-3. String Methods
-4. The StringBuilder Class
-5. StringBuilder Methods
-6. Writing toString() Methods
-7. Labs
-
-`StringAndStringBuilder/com.skilldistillery.stringstringbuilder.drills.StringPoolTesting`
-```java
-class OtherClass {
-	public static String coding = "AlwaysCoding";
-}
-
-public class StringPoolTesting {
-	private String coding = "Always" + "Coding";
-
-	public static void main(String[] args) {
-		StringPoolTesting tester = new StringPoolTesting();
-		tester.test();
-	}
-
-	private void test() {
-		String coding = "AlwaysCoding";
-		String coding2 = new String("AlwaysCoding");
-		String always = "Always";
-
-//     true or false: false
-		System.out.println(coding == coding2);
-//     true or false: true
-		System.out.println(coding == this.coding);
-//     true or false: true
-		System.out.println(coding == OtherClass.coding);
-//     true or false: true
-		System.out.println(coding == "AlwaysCoding");
-//     true or false: true
-		System.out.println(coding == "Always" + "Coding");
-//     true or false: flase
-		System.out.println(coding == always + "Coding");
-//     true or false: true
-		System.out.println(coding == "Al" + "waysCoding");
-//     true or false:true
-		System.out.println(coding == (always + "Coding").intern());
-	}
-}
-```
-
-`StringAndStringBuilder/src/com.skilldistillery.stringstringbuilder.drills.SSNMasker`
-```java
-public class SSNMasker {
-
-	/**
-	 * Returns an SSN (Social Security Number) string with the first five digits
-	 * replaced with 'X'.
-	 * 
-	 * @param ssn An SSN sting in the format 123-45-6789
-	 * @return A masked SSN string in the format XXX-XX-6789
-	 */
-	public String maskSSN(String ssn) {
-		String maskedSSN = null;
-
-		// CODE HERE
-		// use substring and concatenation to return a masked SSN.
-		String lastFour = ssn.substring(7, 11);
-		maskedSSN = "XXX-XX-" + lastFour;
-		return maskedSSN;
-	}
-}
-```
-
-`StringAndStringBuilder/test/com.skilldistillery.stringstringbuilder.drills.SSNMaskerTests`
-```java
-public class SSNMaskerTests {
-  SSNMasker masker;
-
-	@Before
-	public void setUp() throws Exception {
-		masker = new SSNMasker();
-	}
-
-	@After
-	public void tearDown() throws Exception {
-		masker = null;
-	}
-
-	@Test
-	public void test_maskSSN_returns_ssn_with_first_five_digits_masked_with_X() {
-		String ssn = "123-45-6789";
-		String masked = masker.maskSSN(ssn);
-		String expected = "XXX-XX-6789";
-		assertEquals(expected, masked);
-		ssn = "666-55-4321";
-		masked = masker.maskSSN(ssn);
-		expected = "XXX-XX-4321";
-	}
-
-}
-```
-
-`StringAndStringBuilder/com.skilldistillery.stringstringbuilder.drills.UserCommentDriver`
-```java
-public class UserCommentDriver {
-
-	public static void main(String[] args) {
-		UserCommentDriver driver = new UserCommentDriver();
-		driver.go();
-	}
-
-	private void go() {
-		UserComment comment1 = new UserComment(42, null, "2018-01-04", "14:59:23", "bdobbs", "I love coding in Java!");
-
-		UserComment comment2 = new UserComment(47, comment1, "2018-01-04", "15:03:12", "jsmith", "Me too!");
-
-		System.out.println(comment1);
-		System.out.println(comment2);
-
-	}
-}
-```
-```java
-//UserComment.java
-
-@Override
-	public String toString() {
-		return "UserComment [commentId=" + commentId + ", inReplyToComment=" + inReplyToComment + ", date=" + date
-				+ ", time=" + time + ", userName=" + userName + ", commentText=" + commentText + "]";
-	}
-```
-
-`Lab 1 - StringLab.java`
-```java
-public class StringLab {
-
-	public static void main(String[] args) {
-		StringLab lab = new StringLab();
-		lab.go();
-	}
-
-	private void go() {
-		// Using String methods, determine and print whether 'testString':
-		// 1. Starts with 'abc'
-		// 2. Ends with 'ld!'
-		// 3. Contains 'wor'
-		String testString = "Hello world!";
-
-		System.out.println(testString.startsWith("abc"));
-		System.out.println(testString.endsWith("ld!"));
-		System.out.println(testString.contains("wor"));
-
-		// Using String methods, print the following information
-		// about 'testString2':
-		// 1. The character at index 3
-		// 2. The number of characters in the String
-		// 3. The contents of the String in all uppercase
-		// 4. The contents of the String without white space on either side
-
-		String testString2 = "   Hello Java Coding World!   ";
-
-		System.out.println(testString2.charAt(3));
-		System.out.println(testString2.length());
-		System.out.println(testString2.toUpperCase());
-		System.out.println(testString2.trim());
-	}
-}
-```
-
-`Lab 2 - StringBuilderLab.java`
-```java
-public class StringBuilderLab {
-
-	public static void main(String[] args) {
-		StringBuilderLab lab = new StringBuilderLab();
-		lab.go();
-	}
-
-	private void go() {
-		String original = "Java world.";
-
-		StringBuilder sb = new StringBuilder(original);
-		System.out.println(sb);
-
-		// Use only StringBuilder methods on sb to change the text to:
-		// Hello, Java coding world! Always Be Coding!
-		// Print out sb after each step.
-
-		sb.setCharAt(sb.length() - 1, '!');
-		System.out.println(sb);
-
-		sb.insert(5, "coding ");
-		System.out.println(sb);
-
-		sb.insert(0, "Hello, ");
-		System.out.println(sb);
-
-		sb.append(" Always Be Coding!");
-		System.out.println(sb);
-
-		String result = sb.toString();
-		System.out.println(result);
-	}
-}
-```
-
-`Lab 3 - UserComment.java`
-```java
-@Override
-  public String toString() {
-    String result = "On " + date + " at " + time + ", " + userName + " posted this comment: ["
-                    + commentText + "]";
-    return result;
-  }
-```
-
-`Lab 4 - UserComment2.java`
-```java
-@Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder("On ");
-    sb.append(date)
-      .append(" at ")
-      .append(time)
-      .append(", ")
-      .append(userName)
-      .append(" posted this comment: [")
-      .append(commentText)
-      .append("]");
-    return sb.toString();
-  }
-```
-
-`Lab 5 - UserComment3.java`
-```java
-@Override
-  public String toString() {
-    StringBuilder builder = new StringBuilder();
-    builder.append("UserComment3 [commentId=").append(commentId).append(", ");
-    if (inReplyToComment != null)
-      builder.append("inReplyToComment=").append(inReplyToComment).append(", ");
-    if (date != null)
-      builder.append("date=").append(date).append(", ");
-    if (time != null)
-      builder.append("time=").append(time).append(", ");
-    if (userName != null)
-      builder.append("userName=").append(userName).append(", ");
-    if (commentText != null)
-      builder.append("commentText=").append(commentText);
-    builder.append("]");
-    return builder.toString();
-  }
-```
-
-#### Project: Mad Libs
-
-### Week 2 - Day 2
-
-#### ASCII and Unicode Data
-1. Standards
-2. ASCII
-3. Unicode
-4. Labs
-
-`ASCIIData/com.skilldistillery.characters.drills.ASCIICharacters`
-```java
-public class ASCIICharacters {
-
-	public static void main(String[] args) {
-		// In a for loop, iterate through the number 0 to 127,
-		// printing each number and the char representation
-		// of that number (by casting it to a char) on a separate line.
-		for (int i = 0; i < 128; i++) {
-			char ASCIIi = (char) i;
-			System.out.println("Numeral Value:" + i + " ASCII Value:" + ASCIIi);
-		}
-	}
-}
-```
-
-`ASCIIData/com.skilldistillery.characters.drills.UnicodeOutput`
-```java
-public class UnicodeOutput {
-
-	public static void main(String[] args) {
-		// Write the characters
-		// '\u261d', '\u270a', '\u270b', '\u270c'
-		// to the screen.
-		System.out.println('\u261d' + "" + '\u270a' + "" + '\u270b' + "" + '\u270c');
-	}
-}
-```
-
-`ASCIIData/com.skilldistillery.characters.drills.SuppChars`
-```java
-public class SuppChars {
-
-	public static void main(String[] args) {
-		// Write the String "\uD83C\uDCA1" to the screen.
-		System.out.println("\uD83C\uDCA1");
-
-		// Add the statement System.out.println(Character.toChars(0x1f0a1));
-		System.out.println(Character.toChars(0x1f0a1));
-
-		// Use Character.toChars() to output the code points 0x1F600 through 0x1F64F
-		// Add a newline every 16 characters.
-		int counter = 0;
-		for (int i = 0x1F600; i <= 0x1F64F; i++) {
-			System.out.print(Character.toChars(i));
-			counter++;
-			if (counter % 16 == 0) {
-				System.out.println();
-				counter = 0;
-			}
-		}
-	}
-}
-```
-
-`Lab 1 - AlphaNumCheck.java`
-```java
-public class AlphaNumCheck {
-
-	public static void main(String[] args) {
-		run();
-	}
-
-	public static void run() {
-		Scanner sc = new Scanner(System.in);
-
-		// Make an instance of this class
-		AlphaNumCheck anc = new AlphaNumCheck();
-
-		System.out.print("Enter a word or sentence: ");
-		String input = anc.getSentence(sc);
-
-		boolean result = anc.checkAlphaSentence(input);
-
-		if (result) {
-			System.out.println("The sentence contains only letters.");
-		} else {
-			System.out.println("The sentence contains non-letters.");
-		}
-		sc.close();
-	}
-
-	public String getSentence(Scanner sc) {
-		return sc.nextLine();
-	}
-
-	public boolean checkAlphaSentence(String input) {
-		char[] chars = input.toCharArray();
-		boolean result = true;
-		for (int i = 0; i < chars.length; i++) {
-			char c = chars[i];
-			if (c >= 65 && c <= 90 || c >= 'a' && c <= 'z') {
-				continue;
-			}
-			result = false;
-			break;
-		}
-		return result;
-	}
-}
-```
-
-`Lab 2 - AlphaNumCheck.java`
-```java
-public boolean checkAlphaNumSpaceSentence(String input) {
-    char[] chars = input.toCharArray();
-    boolean result = true;
-    for (int i = 0; i < chars.length; i++) {
-      char c = chars[i];
-      if(c >= 65 && c <= 90 
-          || c >= 'a' && c <= 'z'
-          || c == 32
-          || c >= '0' && c <= '9') {
-        continue;
-      }
-      result = false;
-      break;
-    }
-    
-    return result;
-  }
-```
-
-#### Objects and Classes
-1. Classes and Objects
-2. Constructors
-3. The Default Constructor
-4. Objects in Memory
-5. Imagining the Heap
-6. Visibility
-
-`Objects/com.skilldistillery.objs.drills.Dog`
-```java
-public class Dog {
-	public String breed;
-	public String name;
-	public int weight;
-
-	// Add a constructor with parameters to initialize breed and weight.
-	public Dog(String breedDog, int weightDog) {
-		breed = breedDog;
-		weight = weightDog;
-	}
-
-	// Add a constructor with parameters to initialize name, breed, and weight.
-	public Dog(String name, String someBreed, int howManyLbs) {
-		this.name = name;
-		breed = someBreed;
-		weight = howManyLbs;
-	}
-
-	public void displayDogInfo() {
-		System.out.println("Dog [breed=" + breed + ", name=" + name + ", weight=" + weight + "]");
-	}
-
-	public static void main(String[] args) {
-		// Create three dog instances and call the displayDogInfo method on each Dog
-		// object.
-		Dog newDog = new Dog("Poodle", 30);
-		newDog.displayDogInfo();
-
-		Dog myDog = new Dog("Pit Mix", 60);
-		myDog.displayDogInfo();
-
-		Dog yourDog = new Dog("Lab", 100);
-		yourDog.displayDogInfo();
-
-		Dog fredsDog = new Dog("Spot", "mutt", 10);
-		fredsDog.displayDogInfo();
-	}
-}
-```
-
-`Objects/com.skilldistillery.objs.drills.BankApp`
-```java
-public class BankApp {
-
-	public static void main(String[] args) {
-		BankApp b = new BankApp();
-		b.run();
-	}
-
-	void run() {
-		Account acc1 = new Account("ACC-10001", 305.32);
-		Account acc2 = new Account("ACC-10002", 9053.23);
-
-		printAccountData(acc1);
-		printAccountData(acc2);
-//    	acc1.setBalance(305.32 + 100);
-	}
-
-	void printAccountData(Account account) {
-		System.out.println(account.getAccountId() + " balance: " + account.getBalance());
-	}
-}
-//cmd + opt + s
-//generate getters and setters
-```
-
-#### Drawing Objects and Their Relationships
-1. Representing Objects with Diagrams
-2. UML Class Diagram
-3. Classes and Their Associations
-4. Labs
-
-#### Introduction to JUnit
-1. Testing Java Applications
-2. Building and Deploying Software
-3. JUnit
-4. Test Classes
-5. Writing @Test Methods
-6. assert Methods
-7. @Before and @After
-8. Test-Driven Development (TDD)
-9. Labs
-
-#### Project: Caesar Cipher
-
-### Week 2 - Day 3
-
-#### Encapsulation
-1. Changing Instance Fields
-2. Visibility and Access Modifiers
-3. Encapsulation
-4. Getters and Setters
-5. The this Keyword
-6. Labs
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.BankApp`
-```java
-public class BankApp {
-
-  public static void main(String[] args) {
-    BankApp b = new BankApp();
-    b.run();
-  }
-  
-  void run(){
-    Account acc1 = new Account("ACC-10001", 305.32);
-    Account acc2 = new Account("ACC-10002", 9053.23);
-    
-    printAccountData(acc1);
-    printAccountData(acc2); 
-  }
-  
-  void printAccountData(Account account) {
-    System.out.println(account.accountId + " balance: " + account.balance); //Can't access private data (accountId, balance)
-  }
-}
-```
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.Account`
-```java
-	private double balance;
-	private String accountId;
-
-	public Account(String aId) {
-		accountId = aId;
-	}
-
-	public Account(String aId, double initialBalance) {
-		balance = initialBalance;
-		accountId = aId;
-	}
-
-	public void deposit(double amount) {
-		balance = balance + amount;
-	}
-
-	public void withdraw(double amount) {
-		balance = balance - amount;
-	}
-}
-```
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.BankApp`
-```java
-public class BankApp {
-
-	public static void main(String[] args) {
-		BankApp b = new BankApp();
-		b.run();
-	}
-
-	void run() {
-		Account acc1 = new Account("ACC-10001", 305.32);
-		Account acc2 = new Account("ACC-10002", 9053.23);
-
-		printAccountData(acc1);
-		printAccountData(acc2);
-	}
-
-	void printAccountData(Account account) {
-		System.out.println(account.getAccountId() + " balance: " + account.getBalance());
-	}
-}
-```
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.Account`
-```java
-public class Account {
-	  private double balance;
-	  private String accountId;
-
-	  public Account(String aId) {
-	    accountId = aId;
-	  }
-
-	  public Account(String aId, double initialBalance) {
-	    balance = initialBalance;
-	    accountId = aId;
-	  }
-	  
-	  // "getter" and "setter" methods
-	  public double getBalance() {
-	    return balance;
-	  }
-
-	  public void setBalance(double bal) {
-	    balance = bal;
-	  }
-
-	  public String getAccountId() {
-	    return accountId;
-	  }
-
-	  public void setAccountId(String id) {
-	    accountId = id;
-	  }
-
-	  public void deposit(double amount) {
-	    balance = balance + amount;
-	  }
-
-	  public void withdraw(double amount) {
-	    balance = balance - amount;
-	  }
-	}
-```
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.Student`
-```java
-public class Student {
-
-	private int[] scores;
-	private double average;
-
-	public int[] getScores() {
-		return scores;
-	}
-
-	public double getAverage() {
-		return average;
-	}
-
-	private void computeAverage() {
-		// valid code to compute average
-		// average = update average value
-		if (scores != null && scores.length > 0) {
-			int sum = 0;
-			for (int score : scores) {
-				sum += score;
-			}
-			average = (double) sum / scores.length;
-		} else {
-			average = 0; // Handle the case when there are no scores.
-		}
-	}
-
-	public Student() {
-		computeAverage();
-	}
-}
-```
-
-`Encapsulation/com.skilldistillery.encapsulation.drills.Account`
-```java
-public class Account {
-	private double balance;
-	private String accountId;
-
-	public Account(String aId) {
-		accountId = aId;
-	}
-
-	public Account(String aId, double initialBalance) {
-		balance = initialBalance;
-		accountId = aId;
-	}
-
-	// "getter" and "setter" methods
-	public double getBalance() {
-		return balance;
-	}
-
-	public void setBalance(double bal) {
-		this.balance = balance;
-	}
-
-	public String getAccountId() {
-		return accountId;
-	}
-
-	public void setAccountId(String id) {
-		this.accountId = accountId;
-	}
-
-	public void deposit(double amount) {
-		balance = balance + amount;
-	}
-
-	public void withdraw(double amount) {
-		balance = balance - amount;
-	}
-}
-```
-
-`Lab 1 - Car.java`
-```java
-public class Car {
-	private String make;
-	private String model;
-	private String color;
-	private int numberOfWheels;
-	private double purchasePrice;
-
-
-	public Car() {
-		
-	}
-
-	public Car(String make1, String model1, String color1, int wheels, double price) {
-		this.make = make1;
-		this.model = model1;
-		this.color = color1;
-		this.numberOfWheels = wheels;
-		this.purchasePrice = price;
-	}
-
-	public Car(String make1, String model1, String color1, int wheels) {
-		this.make = make1;
-		this.model = model1;
-		this.color = color1;
-		this.numberOfWheels = wheels;
-	}
-
-	public String getMake() {
-		return make;
-	}
-
-	public void setMake(String make) {
-		this.make = make;
-	}
-
-	public String getModel() {
-		return model;
-	}
-
-	public void setModel(String model) {
-		this.model = model;
-	}
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
-	public int getNumberOfWheels() {
-		return numberOfWheels;
-	}
-
-	public void setNumberOfWheels(int numberOfWheels) {
-		this.numberOfWheels = numberOfWheels;
-	}
-
-	public double getPurchasePrice() {
-		return purchasePrice;
-	}
-
-	public void setPurchasePrice(double purchasePrice) {
-		this.purchasePrice = purchasePrice;
-	}
-
-	public void displayCar() {
-		String carData = toString();
-		System.out.println(carData);
-	}
-
-	public String toString() {
-		String output = "make= " + make + ", model= " + model + ", color= " + color + ", numberOfWheels= "
-				+ numberOfWheels + ", purchasePrice= " + purchasePrice;
-		return output;
-	}
-}
-```
-
-`Lab 1 - CarTester.java`
-```java
-public class CarTester {
-
-	public static void main(String[] args) {
-		// Create two Cars and assign fields
-		Car car1 = new Car("Dodge", "Stratus", "Blue", 4, 15412);
-		Car car2 = new Car("Ford", "F-950", "Neon", 10, 70000);
-		Car car3 = new Car();
-
-		// Have the cars display themselves
-		car1.displayCar();
-		car2.displayCar();
-		car3.displayCar();
-
-		String car1Data = car1.toString();
-		String car2Data = car2.toString();
-		String car3Data = car3.toString();
-
-		// Get the cars' data and display that
-		System.out.println("Car 1 data: " + car1Data);
-		System.out.println("Car 2 data: " + car2Data);
-		System.out.println("Car 3 data: " + car3Data);
-	}
-}
-```
-
-`Lab 2 - ParkingLot.java`
-```java
-public class ParkingLot {
-	private int numCars;
-	private Car[] cars;
-	private int MAX_CARS = 10;
-
-	public ParkingLot() {
-		cars = new Car[MAX_CARS];
-	}
-
-	public void addCar(Car aCar) {
-		if (numCars == MAX_CARS) {
-			System.out.println("SOL! Good luck making your flight!");
-		} else {
-			for (int i = 0; i < cars.length; i++) {
-				if (cars[i] == null) {
-					cars[i] = aCar;
-					numCars++;
-					break;
-				}
-			}
-		}
-	}
-
-	public Car[] getCars() {
-		Car[] allParkedCars = new Car[numCars];
-		for (int i = 0; i < cars.length; i++) {
-			if (cars[i] != null) {
-				allParkedCars[i] = cars[i];
-			}
-		}
-		return allParkedCars;
-	}
-}
-```
-
-`Lab 2 - ParkingLotTester.java`
-```java
-public class ParkingLotTester {
-
-	public static void main(String[] args) {
-		ParkingLotTester crt = new ParkingLotTester();
-		crt.run();
-	}
-
-	private void run() {
-		ParkingLot cr = new ParkingLot();
-
-		Car[] cars = cr.getCars();
-
-		System.out.println("Number of initial cars: " + cars.length);
-
-		Car car1 = new Car("Black", "Dodge", "Stratus", 4, 15412.0);
-
-		Car car2 = new Car();
-		car2.setColor("Neon");
-		car2.setMake("Ford");
-		car2.setModel("F950");
-		car2.setNumberOfWheels(10);
-		car2.setPurchasePrice(74999.0);
-
-		cr.addCar(car1);
-		cr.addCar(car2);
-
-		// Get the car array
-		cars = cr.getCars();
-
-		// Print it
-		printCars(cars);
-
-		System.out.println("Total cars returned: " + cars.length);
-	}
-
-	private void printCars(Car[] cars) {
-		for (Car car : cars) {
-			car.displayCar();
-		}
-	}
-}
-```
-
-#### Object Initialization
-1. this vs. this()
-2. Initializing Static Fields
-3. Initializing Instance Fields
-4. Order of Initialization
-5. Constant Fields and Variables
-6. private Methods
-7. Labs
-```java
-public class Car2 {
-  private String make, model, color;
-  private int numberOfWheels;
-  private double purchasePrice;
-
-  public Car2(String make, String model, String color, int numberOfWheels) {
-    this(make, model, color, numberOfWheels, 0.0);
-  }
-
-  public Car2(String make, String model, String color, int numberOfWheels, double purchasePrice) {
-    this.make = make;
-    this.model = model;
-    this.color = color;
-    this.numberOfWheels = numberOfWheels;
-    this.purchasePrice = purchasePrice;
-  }
-  //...
-}
-```
-
-#### Inheritance in Java
-1. Inheritance
-2. The extends Keyword
-3. final Classes *
-4. UML and extends
-5. Inheriting Fields *
-6. Inheriting Methods *
-7. Lab - Creating a Class Hierarchy
-
-`Inheritance/com.skilldistillery.inheritance.drills.Employee`
-```java
-public class Employee extends Person {
-
-	private String title;
-	private double Salary;
-}
-```
-
-`Inheritance/com.skilldistillery.inheritance.drills`
-```java
-public class TestClass extends Object{
-
-}
-//Try to make TestClass extend System by adding extends System.
-//Try to make TestClass extend String.
-//Try to make TestClass extend StringBuilder.
-//Try to make TestClass extend Integer.
-//It didn't work. Make TestClass extend Object.
-```
-
-`Inheritance/com.skilldistillery.inheritance.drills.Employee`
-```java
-public class Employee extends Person {
-
-	private String title;
-	private double Salary;
-
-	// Add a no-arg constructor to Employee.
-	public Employee() {
-	
-	}
-
-	// Add a constructor to Employee with parameters for firstName, lastName, age,
-	// title, and salary.
-	// Set the fields firstName, lastName, and age the same way as title and salary
-	// - using the . operator.
-	public Employee(String firstName, String lastName, int age, String title, double Salary) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.age = age;
-		this.title = title;
-		this.Salary = Salary;
-	}
-
-	// Add a method to Employee called public String getInfo()
-	// Return a String containing the object's information in the format firstName
-	// lastName age title salary.
-	public String getInfo() {
-		return firstName + " " + lastName + " " + age + " " + title + " " + salary;
-	}
-}
-```
-
-`Inheritance/com.skilldistillery.inheritance.drills.EmployeeApp`
-```java
-public class EmployeeApp {
-
-	public static void main(String[] args) {
-		EmployeeApp app = new EmployeeApp();
-		app.run();
-	}
-
-	private void run() {
-		Person pers = null;
-		// Create a Person object and assign it to pers. Give the person a firstName,
-		// lastName, and age using either the constructor or setters.
-		pers = new Person();
-		pers.setFirstName("Anthony");
-		pers.setLastName("King");
-		pers.setAge(31);
-
-		// Call getInfo() and print the Person's information to the screen.
-		System.out.println(pers.getInfo());
-
-		Employee emp2 = null;
-
-		// Create an Employee object using the five-argument constructor, and
-		// assign it to emp2.
-		emp2 = new Employee("Dee", "G", 25, "Instructor", 100); // creating new object using ctor from Employee class
-
-		// Call getInfo() and print the Employee's information to the screen.
-		System.out.println(emp2.getInfo());
-	}
-}
-```
-
-`Inheritance/com.skilldistillery.inheritance.drills.Employee`
-```java
-public String getInfo() {
-		return getName() + " " + age + " " + title + " " + Salary;
-	}
-```
-
-`Lab 1 - Vehicle.java`
-```java
-public class Vehicle {
-
-	protected double purchasePrice;
-
-	public Vehicle() {
-	}
-
-	public Vehicle(double purchasePrice) {
-		this.purchasePrice = purchasePrice;
-	}
-
-	public double getPurchasePrice() {
-		return purchasePrice;
-	}
-
-	public void setPurchasePrice(double purchasePrice) {
-		this.purchasePrice = purchasePrice;
-	}
-
-	@Override
-	public String toString() {
-		return "Vehicle [purchasePrice=" + purchasePrice + "]";
-	}
-}
-```
-
-`Lab 2 - Automobile.java`
-```java
-public class Automobile extends Vehicle {
-
-	private String make;
-	private String model;
-	private int year;
-	private int numberOfWheels;
-	private double speedInMph;
-
-	public Automobile() {
-	}
-
-	public Automobile(String make, String model, int year, int numberOfWheels, double speedInMph,
-			double purchasePrice) {
-		super(purchasePrice);
-		this.make = make;
-		this.model = model;
-		this.year = year;
-		this.numberOfWheels = numberOfWheels;
-		this.speedInMph = speedInMph;
-		this.purchasePrice = purchasePrice;
-	}
-	
-	public String getMake() {
-		return make;
-	}
-
-	public void setMake(String make) {
-		this.make = make;
-	}
-
-	public String getModel() {
-		return model;
-	}
-
-	public void setModel(String model) {
-		this.model = model;
-	}
-
-	public int getYear() {
-		return year;
-	}
-
-	public void setYear(int year) {
-		this.year = year;
-	}
-
-	public int getNumberOfWheels() {
-		return numberOfWheels;
-	}
-
-	public void setNumberOfWheels(int numberOfWheels) {
-		this.numberOfWheels = numberOfWheels;
-	}
-
-	public double getSpeedInMph() {
-		return speedInMph;
-	}
-
-	public void setSpeedInMph(double speedInMph) {
-		this.speedInMph = speedInMph;
-	}
-
-	@Override
-	public String toString() {
-		return "Automobile [make=" + make + ", model=" + model + ", year=" + year + ", numberOfWheels=" + numberOfWheels
-				+ ", speedInMph=" + speedInMph + ", purchasePrice=" + purchasePrice + "]";
-	}
-}
-```
-
-`Lab 3 - Boat.java`
-```java
-public class Boat extends Vehicle {
-
-	protected String name;
-	protected double speedInKnots;
-	protected int lengthInFeet;
-
-	public Boat() {
-
-	}
-
-	public Boat(String name, double speedInKnots, int lengthInFeet, double purchasePrice) {
-		this.name = name;
-		this.speedInKnots = speedInKnots;
-		this.lengthInFeet = lengthInFeet;
-		this.purchasePrice = purchasePrice;
-	}
-
-	@Override
-	public String toString() {
-		return "Boat [name=" + name + ", speedInKnots=" + speedInKnots + ", lengthInFeet=" + lengthInFeet
-				+ ", purchasePrice=" + purchasePrice + "]";
-	}
-}
-```
-
-`Lab 4 - Truck.java`
-```java
-public class Truck extends Automobile {
-	protected int bedSizeInCubicFeet;
-
-	public Truck() {
-
-	}
-
-	public Truck(double purchasePrice, String make, String model, int year, int numberOfWheels, double speedInMph,
-			int bedSizeInCubicFeet) {
-		this.purchasePrice = purchasePrice; // Vehicle field
-		this.make = make; // Automobile fields
-		this.model = model;
-		this.year = year;
-		this.numberOfWheels = numberOfWheels;
-		this.speedInMph = speedInMph;
-		this.bedSizeInCubicFeet = bedSizeInCubicFeet;
-	}
-}
-```
-
-`Lab 5 - VehicleTestApp.java`
-```java
-public class VehicleTestApp {
-
-	public static void main(String[] args) {
-		Automobile sc = new Automobile();
-		System.out.println(sc.toString());
-
-		Boat bobber = new Boat();
-		System.out.println(bobber.toString());
-
-		Truck coalRoller = new Truck();
-		System.out.println(coalRoller.toString());
-
-	}
-}
-```
-
-#### Visibility
-1. Field and Method Visibility
-2. Getters and Setters
-3. Lab - Improving Encapsulation
-
-#### Project: Food Trucks
-
-### Week 2 - Day 4
-
-#### Superclasses
-1. Using a Superclass's Methods and Fields
-2. Constructors and Inheritance
-3. Rules for super()
-4. The Object Class
-5. Labs
-
-`SuperClasses/com.skilldistillery.inheritance.drills.Employee`
-```java
-public class Employee extends Person {
-  private String title;
-  private double salary;
-
-  public Employee() {
-  }
-
-  public Employee(String firstName, String lastName, int age,
-      String title, double salary) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-    this.title = title;
-    this.salary = salary;
-  }
-  
-  // Call the parent method
-  public String getInfo() {
-    return super.getInfo() + " " + title + " " + salary;
-  }
-
-  public String getTitle() {
-    return title;
-  }
-
-  public void setTitle(String title) {
-    this.title = title;
-}
-
-public double getSalary() {
-	return salary;
-}
-
-public void setSalary(double salary) {
-	this.salary = salary;
-}
-}
-```
-
-`SuperClasses/com.skilldistillery.inheritance.drills.DataAnalyst`
-```java
-import com.skilldistillery.superclasses.drills.Employee;
-
-public class DataAnalyst extends Employee {
-  private String securityClearance;
-  
-  public DataAnalyst(String securityClearance, String firstName, String lastName, int age, String title, double salary) {
-    this.setSecurityClearance(securityClearance);
-    this.setFirstName(firstName);
-    this.setLastName(lastName);
-    this.setAge(age);
-	this.setTitle(title);
-	this.setSalary(salary);
-}
-
-public String getSecurityClearance() {
-	return securityClearance;
-}
-
-public void setSecurityClearance(String securityClearance) {
-	this.securityClearance = securityClearance;
-}
-
-// Call the parent method
-public String getInfo() {
-	return super.getInfo() + " " + securityClearance;
-}
-}
-```
-
-`SuperClasses/com.skilldistillery.inheritance.drills.EmployeeApp`
-```java
-import com.skilldistillery.superclasses.drills.Person;
-
-public class EmployeeApp {
-
-	public static void main(String[] args) {
-		EmployeeApp app = new EmployeeApp();
-		app.run();
-	}
-
-	private void run() {
-		Person pers = null;
-		pers = new Person("Ronnie", "Dobbs", 34);
-		System.out.println(pers.getInfo());
-
-		Employee6 emp = null;
-		emp = new Employee6("Bob", "Dobbs", 55, "VP of Sales", 138_000.00);
-		System.out.println(emp.getInfo());
-
-		DataAnalyst dataAnalyst = new DataAnalyst("TOP SECRET", "James", "Java", 45, "Analyst IV", 120_000.00);
-		System.out.println(dataAnalyst.getInfo());
-	}
-}
-```
-
-`Lab 1 - Vehicle.java`
-```java
-public class Vehicle {
-
-	private double purchasePrice;
-
-	public Vehicle(double purchasePrice) {
-		this.purchasePrice = purchasePrice;
-	}
-
-	public double getPurchasePrice() {
-		return purchasePrice;
-	}
-
-	public void setPurchasePrice(double purchasePrice) {
-		this.purchasePrice = purchasePrice;
-	}
-
-	public String toString() {
-		return "Vehicle [purchasePrice=" + purchasePrice + "]";
-	}
-}
-```
-
-`Lab 1 - Automobile.java`
-```java
-import com.skilldistillery.superclasses.labs.vehicles.Vehicle;
-
-public class Automobile extends Vehicle {
-	private String make;
-	private String model;
-	private int year;
-	private int numberOfWheels;
-	private double speedInMph;
-
-	public Automobile(double purchasePrice, String make, String model, int year, int numberOfWheels,
-			double speedInMph) {
-		super(purchasePrice);
-		this.make = make;
-		this.model = model;
-		this.year = year;
-		this.numberOfWheels = numberOfWheels;
-		this.speedInMph = speedInMph;
-	}
-
-	public String toString() {
-		return "Automobile [purchasePrice=" + getPurchasePrice() + ", make=" + make + ", model=" + model + ", year="
-				+ year + ", numberOfWheels=" + numberOfWheels + ", speedInMph=" + speedInMph + "]";
-	}
-
-	public String getMake() {
-		return make;
-	}
-
-	public void setMake(String make) {
-		this.make = make;
-	}
-
-	public String getModel() {
-		return model;
-	}
-
-	public void setModel(String model) {
-		this.model = model;
-	}
-
-	public int getYear() {
-		return year;
-	}
-
-	public void setYear(int year) {
-		this.year = year;
-	}
-
-	public int getNumberOfWheels() {
-		return numberOfWheels;
-	}
-
-	public void setNumberOfWheels(int numberOfWheels) {
-		this.numberOfWheels = numberOfWheels;
-	}
-
-	public double getSpeedInMph() {
-		return speedInMph;
-	}
-
-	public void setSpeedInMph(double speedInMph) {
-		this.speedInMph = speedInMph;
-	}
-}
-```
-
-`Lab 1 - Truck.java`
-```java
-import com.skilldistillery.superclasses.labs.vehicles.Automobile;
-
-public class Truck extends Automobile {
-	protected int bedSizeInCubicFeet;
-
-	public Truck(double purchasePrice, String make, String model, int year, int numberOfWheels, double speedInMph,
-			int bedSizeInCubicFeet) {
-		super(purchasePrice, make, model, year, numberOfWheels, speedInMph);
-		this.bedSizeInCubicFeet = bedSizeInCubicFeet;
-	}
-
-	public int getBedSizeInCubicFeet() {
-		return bedSizeInCubicFeet;
-	}
-
-	public void setBedSizeInCubicFeet(int bedSizeInCubicFeet) {
-		this.bedSizeInCubicFeet = bedSizeInCubicFeet;
-	}
-}
-```
-
-`Lab 1 - Boat.java`
-```java
-import com.skilldistillery.superclasses.labs.vehicles.Vehicle;
-
-public class Boat extends Vehicle {
-	protected String name;
-	protected double speedInKnots;
-	protected int lengthInFeet;
-
-	public Boat(double purchasePrice, String name, double speedInKnots, int lengthInFeet) {
-		super(purchasePrice);
-		this.name = name;
-		this.speedInKnots = speedInKnots;
-		this.lengthInFeet = lengthInFeet;
-	}
-
-	public String toString() {
-		return "Boat [purchasePrice=" + getPurchasePrice() + ", name=" + name + ", speedInKnots=" + speedInKnots
-				+ ", lengthInFeet=" + lengthInFeet + "]";
-	}
-}
-```
-
-`Lab 1 - VehicleTestApp`
-```java
-public class VehicleTestApp {
-
-	public static void main(String[] args) {
-		Automobile a = new Automobile3(90000.00, "Dundreary", "Stretch", 2008, 4, 105);
-		Boat b = new Boat3(145000.00, "Reefer", 21, 25);
-		Truck t = new Truck3(22_000, "Vapid", "Bobcat", 2006, 4, 88, 55);
-
-		System.out.println(a.toString());
-		System.out.println(b.toString());
-		System.out.println(t.toString());
-	}
-}
-```
-
-#### Polymorphism and Overriding
-1. Polymorphism in Java
-2. Overriding Superclass Behavior
-3. @Override
-4. Rules for Overriding
-5. Lab - Using Polymorphism
-
-#### Abstract Classes
-1. Abstract Classes
-2. Abstract Methods
-3. Using Abstract Classes
-4. Labs
-
-#### Polymorphism and Casting
-1. Casting
-2. Downcasting
-3. Casting and Precedence
-4. Hiding Instance Fields
-5. Labs
-
-#### Project: Animal Sanctuary
-
-### Week 2 - Day 5
-
-#### Equals and Hashcode
-1. Comparing References
-2. Object.equals()
-3. Defining an equals() Method
-4. Determining Equality
-5. hashCode()
-6. Labs
-
-#### The Primitive-Type Wrapper Classes
-1. Wrapper Classes
-2. Important Wrapper Class Methods
-3. Comparing Wrapper Objects
-4. Autoboxing
-5. Float and Double
-6. Integer-type Wrappers
-7. Character
-8. Boolean
-9. Labs
-
-`WrapperClasses/com.skilldistillery.wrapperclasses.drills.ParseDrill`
-```java
-public class ParseDrill {
-
-	public static void main(String[] args) {
-		ParseDrill drill = new ParseDrill();
-		drill.go();
-	}
-
-	private void go() {
-		// Write statements to determine which strings can be parsed,
-		// and if so print the result, when parsed to:
-
-		// Example:
-		System.out.println(Integer.parseInt("42")); // No problem, 42
-
-		// int:
-		// "1000000000"
-		System.out.println(Integer.parseInt("1000000000")); // No problem, 1000000000
-		// "-1000000000"
-		System.out.println(Integer.parseInt("-1000000000")); // No problem, -1000000000
-		// "+1000000000"
-		System.out.println(Integer.parseInt("+1000000000")); // No problem, 1000000000
-		// " 1000000000 "
-//    System.out.println(Integer.parseInt("  1000000000   ")); // NumberFormatException
-		// "0x123abc"
-//    System.out.println(Integer.parseInt("0x123abc")); // NumberFormatException
-		// Note that a hexadecimal (or other base integer) can be parsed by passing
-		// a radix to the overloaded Integer.parseInt; omit the "0x" prefix.
-		System.out.println(Integer.parseInt("123abc", 16)); // NumberFormatException
-		// "1.0"
-//    System.out.println(Integer.parseInt("1.0")); // NumberFormatException
-		// "1,000,000,000"
-//  System.out.println(Integer.parseInt("1,000,000,000")); // NumberFormatException
-		// "1_000_000_000"
-//  System.out.println(Integer.parseInt("1_000_000_000")); // NumberFormatException
-		// "10000000000"
-//  System.out.println(Integer.parseInt("10000000000")); // NumberFormatException
-		// ""
-//  System.out.println(Integer.parseInt("")); // NumberFormatException
-		// null
-//  System.out.println(Integer.parseInt(null)); // NumberFormatException
-
-		// long:
-		// "1000000000"
-		System.out.println(Long.parseLong("1000000000")); // No problem, 1000000000
-		// "10000000000"
-		System.out.println(Long.parseLong("10000000000")); // No problem, 10000000000
-		// "10000000000L"
-		// 'l' or 'L' as a type indicator are not permitted here, unlike a literal
-//    System.out.println(Long.parseLong("10000000000L")); // NumberFormatException
-
-		// float:
-		// "10000000000"
-		System.out.println(Float.parseFloat("10000000000")); // No problem, 1.0E10
-		// "10000000000F"
-		System.out.println(Float.parseFloat("10000000000F")); // No problem, 1.0E10
-		// "314e-2"
-		System.out.println(Float.parseFloat("314e-2")); // No problem, 3.14
-		// "3.14D"
-		System.out.println(Float.parseFloat("3.14D")); // No problem, 3.14
-		// " 3.14 \n"
-		System.out.println(Float.parseFloat("  3.14   \n")); // No problem, 3.14
-		// null
-//    System.out.println(Float.parseFloat(null)); // NullPointerException
-
-		// boolean:
-		// "true"
-		System.out.println(Boolean.parseBoolean("true")); // No problem, true
-		// "TrUe"
-		System.out.println(Boolean.parseBoolean("TrUe")); // No problem, true
-		// "false"
-		System.out.println(Boolean.parseBoolean("false")); // No problem, false
-		// "no"
-		System.out.println(Boolean.parseBoolean("no")); // No problem, false
-		// "giraffe"
-		System.out.println(Boolean.parseBoolean("giraffe")); // No problem, false
-		// null
-		System.out.println(Boolean.parseBoolean(null)); // No problem, false
-
-	}
-}
-```
-
-`Lab 1 - NaNTest.java`
-```java
-public class NaNTest {
-
-	public static void main(String[] args) {
-		double f = 0.0 / 0.0;
-		System.out.println(f);
-		Double fObj = 0.0 / 0.0;
-		System.out.println(fObj);
-	}
-}
-```
-
-`Lab 2a - AutoboxOverloada.java`
-```java
-public class AutoboxOverloada {
-  public static void method(Object o) { System.out.println("In Object method"); }
-  // a.: The method call compiles even though no method takes int.
-  //     The int value is autoboxed to Integer, which is a subclass of Number.
-  public static void method(Number n) { System.out.println("In Number method"); }
-  //     Java will NOT both widen the int to long, then autobox to Long.
-  public static void method(Long l)   { System.out.println("In Long method"); }
-
-  public static void main(String[] args) {
-    int var = 17;
-    method(var);
-  }
-}
-```
-
-`Lab 2b - AutoboxOverload.java`
-```java
-public class AutoboxOverloadb {
-  public static void method(Object o) { System.out.println("In Object method"); }
-  public static void method(Number n) { System.out.println("In Number method"); }
-  public static void method(Long l)   { System.out.println("In Long method"); }
-  // b.: Java chooses the method taking long, preferring to widen the int to long
-  //     rather than autoboxing to an Integer object.
-  public static void method(long l)   { System.out.println("In long method"); }
-
-  public static void main(String[] args) {
-    int var = 17;
-    method(var);
-  }
-}
-```
-
-`Lab 2c - AutoboxOverload.java`
-```java
-public class AutoboxOverloadc {
-  public static void method(Object o) { System.out.println("In Object method"); }
-  public static void method(Number n) { System.out.println("In Number method"); }
-  public static void method(Long l)   { System.out.println("In Long method"); }
-  public static void method(long l)   { System.out.println("In long method"); }
-  // c.: Even with a method that takes Integer available, Java still chooses
-  //     to widen int to long instead of autoboxing.
-  public static void method(Integer i){ System.out.println("In Integer method"); }
-
-  public static void main(String[] args) {
-    int var = 17;
-    method(var);
-  }
-}
-```
-
-`Lab 2d - AutoboxOverload.java`
-```java
-public class AutoboxOverloadd {
-  public static void method(Object o) { System.out.println("In Object method"); }
-  public static void method(Number n) { System.out.println("In Number method"); }
-  public static void method(Long l)   { System.out.println("In Long method"); }
-  public static void method(long l)   { System.out.println("In long method"); }
-  public static void method(Integer i){ System.out.println("In Integer method"); }
-  // d.: Of course now Java will choose the method taking int.
-  public static void method(int i)    { System.out.println("In int method"); }
-
-  public static void main(String[] args) {
-    int var = 17;
-    method(var);
-  }
-}
-```
-
-`Lab 3 - CountUpOrDown.java`
-```java
-public class CountUpOrDown {
-
-	public static void main(String[] args) {
-
-		Scanner input = new Scanner(System.in);
-
-		System.out.print("Please enter a whole number: ");
-		int count = input.nextInt();
-		System.out.print("Please enter true or false: ");
-		boolean b = input.nextBoolean();
-
-		if (b) {
-			for (int i = 0; i <= count; i++) {
-				System.out.println(i);
-			}
-		} else {
-			for (int i = count; i >= 0; i--) {
-				System.out.println(i);
-			}
-		}
-
-		input.close();
-	}
-}
-```
-
-`Lab 4 - IntegerReferences.java`
-```java
-public class IntegerReferences {
-	public static void main(String[] args) {
-		Integer i = Integer.valueOf(1000);
-		increment(i);
-		// This prints 1000. The local variable i in main still refers
-		// to the immutable Integer object created on line 5.
-		System.out.println(i);
-
-		// If we assign the Integer reference returned by increment()
-		// to our local variable, it will print 1001.
-		i = increment(i);
-		System.out.println(i);
-
-	}
-
-	private static Integer increment(Integer i) {
-		// This statement does not modify the contents of the passed Integer,
-		// which is immutable. Instead, it unboxes the value to an in, increments,
-		// then autoboxes the result as a new Integer.
-		i++;
-		return i;
-	}
-}
-```
-
-`Lab 5 - TestLetters.java`
-```java
-public class TestLetters {
-
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter some text: ");
-		String text = input.nextLine();
-		input.close();
-		TestLetters tester = new TestLetters();
-		tester.test(text);
-	}
-
-	private void test(String text) {
-		char[] chars = text.toCharArray();
-		for (char c : chars) {
-			System.out.print(c);
-			if (Character.isUpperCase(c)) {
-				System.out.print(" is uppercase.");
-			} else if (Character.isLowerCase(c)) {
-				System.out.print(" is lowercase.");
-			} else if (Character.isDigit(c)) {
-				System.out.print(" is a digit.");
-			}
-			System.out.println();
-		}
-	}
-}
-```
-
-#### Interfaces
-1. Interfaces
-2. Declaring an Interface
-3. Using Interfaces
-4. Labs - Declaring and Using Interfaces
-
-`Lab 1 - Drawable.java`
-```java
-
-```
-
-`Lab 2 - Circle.java`
-```java
-
-```
-
-`Lab 3 - Rectangle.java`
-```java
-
-```
-
-`Lab 4 - DrawableTester.java `
-```java
-
-```
-
-`Lab 5 - Text.java`
-```java
-
-```
-
-#### Project: Lord of the Objects
-
-## [Week 3](https://github.com/SkillDistillery/SD41/blob/main/java1/README.md)
-
-### Java Libraries
-
-### Week 3 - Day 1
-
-#### Generics and ArrayList
-1. Arrays Revisited
-2. The ArrayList Class
-3. Generic <Types>
-4. ArrayList - Adding and Getting
-5. Replacing, Inserting, and Removing
-6. Array vs. ArrayList
-7. ArrayList - Size vs. Capacity *
-8. Labs
-
-`GenericsAndArrayList/com.skilldistillery.generics.drills.ArrayListExample`
-```java
-import java.util.ArrayList;
-
-public class ArrayListExample {
-
-	public static void main(String[] args) {
-		ArrayListExample ex = new ArrayListExample();
-		ex.run();
-	}
-
-	private void run() {
-		// Declare and instantiate an ArrayList to hold Strings.
-		// Use the type argument <String> in the constructor call.
-		ArrayList<String> strings = new ArrayList<String>();
-
-		// Declare and instantiate an ArrayList to hold Double objects.
-		// This time use the <> shortcut in the constructor call.
-		ArrayList<Double> doubles = new ArrayList<>();
-
-		// Try to declare an ArrayList to hold double primitives (not Double objects).
-		// What happens?
-		// ArrayList<double> dubs;
-
-		// Now try declaring an ArrayList without type arguments.
-		ArrayList noType = new ArrayList();
-
-		// What is the warning Eclipse gives you?
-		// "ArrayList is a raw type. References to generic type ArrayList<E> should be
-		// parameterized"
-
-		// What combinations of <> and <String> can you put on either side of the =, and
-		// still have the code compile?
-		ArrayList<String> list1 = new ArrayList();
-		ArrayList list2 = new ArrayList<>();
-	}
-}
-```
-
-`GenericsAndArrayList/com.skilldistillery.generics.drills.Container`
-```java
-public class Container<E> {
-	private E field;
-
-	public void set(E obj) {
-		this.field = obj;
-	}
-
-	public E get() {
-		return field;
-	}
-}
-```
-
-`GenericsAndArrayList/com.skilldistillery.generics.drills.GenericContainer`
-```java
-import java.util.ArrayList;
-
-import com.skilldistillery.generics.solutions.Container;
-
-public class GenericContainer {
-
-	public static void main(String[] args) {
-
-		// Declare and instantiate a Container to hold a Character object.
-		Container<Character> cont = new Container<>();
-
-		// Call the object's set method and pass in 'A'.
-		cont.set('A'); // autoboxing
-
-		// get the Character from the object and pass it to printChar.
-		printChar(cont.get());
-
-		// Try to set an Integer or String into the object.
-		// cont.set("a"); // String will not work
-		// cont.set(new Integer(1)); // Integer will not work
-
-		// Create an ArrayList to hold Integer objects.
-		ArrayList<Integer> list = new ArrayList<Integer>();
-
-		// Optional: can you create an ArrayList to hold Container<Character> objects?
-		ArrayList<Container<Character>> contList = new ArrayList<>();
-	}
-
-	private static void printChar(Character c) {
-		System.out.println("The character is " + c);
-	}
-}
-```
-
-`GenericsAndArrayList/com.skilldistillery.generics.drills.AddingAndGetting`
-```java
-import java.util.ArrayList;
-
-public class AddingAndGetting {
-
-	public static void main(String[] args) {
-		AddingAndGetting ag = new AddingAndGetting();
-		ag.run();
-	}
-
-	private void run() {
-		ArrayList<String> strings = new ArrayList<>();
-
-		// Output the list's size.
-		System.out.println("Size is " + strings.size());
-
-		// Add first names of several of your classmates.
-		strings.add("Belinda");
-		strings.add("Jane");
-		strings.add("Charlotte");
-		strings.add("Gina");
-
-		// Output the list's size again.
-		System.out.println("Size is now " + strings.size());
-
-		// Use a for loop and get(index) to iterate through the list and print each name
-		// in uppercase letters.
-		for (int i = 0; i < strings.size(); i++) {
-			String n = strings.get(i);
-			System.out.println(n.toUpperCase());
-		}
-
-		outputLastItem(strings); // Stretch goal: Finish the method below.
-
-	}
-
-	private void outputLastItem(ArrayList<String> list) {
-		// Finish this method to output the last item in the list in lowercase.
-		String last = list.get(list.size() - 1);
-		System.out.println(last.toLowerCase());
-	}
-```
-
-`GenericsAndArrayList/com.skilldistillery.generics.drills.ChangingArrayList`
-```java
-import java.util.ArrayList;
-
-public class ChangingArrayList {
-	public static void main(String[] args) {
-		ChangingArrayList cal = new ChangingArrayList();
-		cal.run();
-	}
-
-	private void run() {
-		ArrayList<String> namesList = new ArrayList<>();
-
-		namesList.add("Alice");
-		namesList.add("Queen of Hearts");
-		namesList.add("Cheshire Cat");
-		namesList.add("Mad Hatter");
-		namesList.add("Tweedle Dee");
-		namesList.add("Tweedle Dum");
-
-		System.out.println("There are " + namesList.size() + " elements in the list.");
-		System.out.println(namesList); // calls toString() for each element
-
-		// Remove Queen of Hearts and store the String in a variable.
-		String queen = namesList.remove(1);
-
-		// Output the contents of namesList with System.out.println()
-		System.out.println(namesList);
-
-		// Output the size of namesList
-		System.out.println("List size is " + namesList.size());
-
-		// Insert Queen of Hearts between Tweedle Dee and Tweedle Dum
-		namesList.add(4, queen);
-
-		// Output the contents of namesList
-		System.out.println(namesList);
-
-		// Replace Mad Hatter with Dormouse
-		namesList.set(2, "Dormouse");
-
-		// Output the contents of namesList
-		System.out.println(namesList);
-
-		// Remove Cheshire Cat
-		namesList.remove(1);
-
-		System.out.println(namesList);
-
-		printMessage(namesList);
-	}
-
-	// This method uses the contents of your ArrayList
-	private void printMessage(ArrayList<String> list) {
-		if (list.size() != 5) {
-			return;
-		}
-		String output = "";
-		int i = 0, index[] = { 0, 7, 4, 2, 7 };
-		int delta[] = { 5, 0, 1, -1, 0 };
-		for (String string : list) {
-			output += (char) (string.charAt(index[i]) + delta[i++]);
-		}
-		for (int j = 0; j < list.size(); j++) {
-			char c = '\u0000';
-			switch (j) {
-			case 0:
-				c = (char) (list.get(j).charAt(0) + 24);
-				break;
-			case 1:
-				c = list.get(j).charAt(4);
-				break;
-			case 2:
-				c = (char) (list.get(j).charAt(1) - 2);
-				break;
-			case 3:
-				c = (char) (list.get(j).charAt(1) - 3);
-				break;
-			case 4:
-				c = (char) (list.get(j).charAt(12 - 5));
-				break;
-			}
-			output += c;
-		}
-		i = 0;
-		index = new int[] { 2, 7, 3, 11, 0 };
-		delta = new int[] { -33, 0, -4, 3, -38 };
-		for (String s : list) {
-			output += (char) (s.charAt(index[i]) + delta[i++]);
-		}
-		System.out.println(output);
-	}
-}
-```
-
-`Lab 3 - Stack.java`
-```java
-import java.util.ArrayList;
-
-/**
- * Note: this Stack implementation has an issue, in that we could add nulls, but
- * we also return null for an empty list. We will have to live with this.
- * 
- */
-public class Stack<E> {
-	private ArrayList<E> list = new ArrayList<>();
-
-	public Stack() {
-
-	}
-
-	public E push(E item) {
-		list.add(item);
-		return item;
-	}
-
-	public E pop() {
-		if (list.size() == 0) {
-			return null;
-		}
-		return list.remove(list.size() - 1);
-	}
-
-	public E peek() {
-		if (list.size() == 0) {
-			return null;
-		}
-		return list.get(list.size() - 1);
-	}
-
-	public int search(Object o) {
-		int index = -1;
-		for (int i = 0; i < list.size(); i++) {
-			E item = list.get(i);
-			if (item.equals(o)) {
-				index = i;
-				break;
-			}
-		}
-		return index;
-	}
-}
-```
-
-`Lab 3 - StackTests.java`
-```java
-import static org.junit.Assert.*;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-public class StackTests {
-
-  private Stack<String> stack;
-  
-  @Before
-  public void setUp() throws Exception {
-    stack = new Stack<>();
-  }
-
-  @After
-  public void tearDown() throws Exception {
-    stack = null;
-  }
-
-  @Test
-  public void test_push_adds_to_stack_and_pop_removes_in_order() {
-    stack.push("A");
-    stack.push("B");
-    stack.push("C");
-    assertEquals("C", stack.pop());
-    assertEquals("B", stack.pop());
-    stack.push("D");
-    assertEquals("D", stack.pop());
-    assertEquals("A", stack.pop());
-  }
-  
-  @Test
-  public void test_push_adds_to_stack_and_peek_twice_shows_same_object_on_top_of_stack() {
-    stack.push("A");
-    stack.push("B");
-    stack.push("C");
-    assertEquals("C", stack.peek());
-    assertEquals("C", stack.peek());
-    assertEquals("C", stack.peek());
-  }
-  
-  @Test
-  public void test_pop_empty_stack_returns_null() {
-    assertNull(stack.pop());
-  }
-  
-  @Test
-  public void test_peek_empty_stack_returns_null() {
-    assertNull(stack.peek());
-  }
-}
-```
-
-#### The List Interface
-1. The List Interface
-2. List Methods
-3. LinkedList
-4. Vector
-5. Using List - Best Practices
-6. Labs
-
-`ListInterface/com.skilldistillery.listinterface.drills.PlanetList`
-```java
-//Planet.java
-import java.util.Objects;
-
-public class Planet {
-	private String name;
-	private long orbit;
-	private int diameter;
-
-	public Planet(String name, long orbit, int diameter) {
-		this.name = name;
-		this.orbit = orbit;
-		this.diameter = diameter;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public long getOrbit() {
-		return orbit;
-	}
-
-	public int getDiameter() {
-		return diameter;
-	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(diameter, name, orbit);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Planet other = (Planet) obj;
-		return diameter == other.diameter && Objects.equals(name, other.name) && orbit == other.orbit;
-	}
-
-	@Override
-	public String toString() {
-		return "Planet [Name=" + name + ", Orbit=" + orbit + ", Diameter=" + diameter + "]";
-	}
-}
-```
-
-```java
-//PlanetList.java
-import java.util.List;
-
-public class PlanetList {
-
-	public static void main(String[] args) {
-		PlanetList p = new PlanetList();
-		p.run();
-	}
-
-	private void run() {
-		List<Planet> planets = PlanetUtilities.getPlanets();
-		System.out.println(planets);
-
-		// Create a new Planet object using the Planet constructor call below.
-		Planet jupiter = new Planet("Jupiter", 778_330_000, 142_984);
-
-		// Print true or false for whether the List contains this planet
-		System.out.println(planets.contains(jupiter));
-
-		// If this was not what you expected, change the Planet class to support
-		// comparison to other Planets. (Hint: what method does Java use to see if
-		// one Object equals another Object?)
-
-		// Try to find the index of this planet in the List, and print out that index.
-		System.out.println(planets.indexOf(jupiter));
-
-		// Now remove Jupiter by passing the object reference you created, and
-		// print true or false for whether removing worked.
-		boolean didRemove = planets.remove(jupiter);
-		System.out.println(didRemove);
-		
-		for (Planet planet : planets) {
-			System.out.println(planet);
-		}
-	}
-}
-```
-
-```java
-//PlanetUtilities.java
-import java.util.ArrayList;
-import java.util.List;
-
-public class PlanetUtilities {
-	public static List<Planet> getPlanets() {
-		List<Planet> planets = new ArrayList<>();
-
-		planets.add(new Planet("Mercury", 57_910_000, 4_880));
-		planets.add(new Planet("Venus", 108_200_000, 12_103));
-		planets.add(new Planet("Earth", 149_600_000, 12_756));
-		planets.add(new Planet("Mars", 227_940_000, 6_794));
-		planets.add(new Planet("Jupiter", 778_330_000, 142_984));
-		planets.add(new Planet("Saturn", 1_429_400_000, 120_536));
-		planets.add(new Planet("Uranus", 2_870_990_000L, 51_118));
-		planets.add(new Planet("Neptune", 4_504_000_000L, 49_532));
-
-		return planets;
-	}
-}
-```
-
-`ListInterface/com.skilldistillery.listinterface.drills.LinkedListAdding`
-```java
-import java.time.Duration;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-public class LinkedListAdding {
-
-  public static void main(String[] args) {
-    LinkedListAdding app = new LinkedListAdding();
-    app.run();
-  }
-  
-  private void run() {
-    // Run the program with ArrayList, and note the time taken.
-    // Then change myList refer to a LinkedList, and run again.
-    List<Planet> myList = new LinkedList<>();
-    fillLargeList(myList);
-  }
-  
-  
-  /**
-   * This method will fill a List, alternating between adding to the
-   * beginning and end. It will also calculate and print the time this
-   * operation takes.
-   */
-  private void fillLargeList(List<Planet> list){
-    
-    // Get the start time
-    LocalDateTime start = LocalDateTime.now();  // You will learn about this class
-    
-    // fill the list, alternating between beginning and end.
-    int numElements = 100_000;
-    System.out.println("Adding to " + list.getClass().getSimpleName() + "...");
-    for(int i=0; i < numElements; i++) {
-      if(i % 2 == 0) {
-        list.add(0, new Planet("EvenPlanet", 100, 100));
-      }
-      else {
-        list.add(new Planet("OddPlanet", 100, 100));
-      }
-    }
-    
-    // Get the end time
-    LocalDateTime end = LocalDateTime.now();
-    
-    // Duration can calculate time elapsed
-    Duration d = Duration.between(start, end);
-    System.out.println(d.toMillis() + " milliseconds");
-  }
-}
-```
-
-`ListInterface/com.skilldistillery.listinterface.drills.LinkedListPositionalAccess`
-```java
-import java.time.Duration;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-public class LinkedListPositionalAccess {
-
-	public static void main(String[] args) {
-		LinkedListPositionalAccess app = new LinkedListPositionalAccess();
-		app.run();
-
-	}
-
-	private void run() {
-		// Run the program with ArrayList, and note the time taken.
-		// Then change myList refer to a LinkedList, and run again.
-		List<Planet> list = new LinkedList<>();
-
-		fillLargeList(list);
-
-		// Get an element
-		getFromList(list);
-	}
-
-	private void getFromList(List<Planet> list) {
-		int size = list.size();
-		int index = size * 3 / 4;
-		System.out.println("Getting element from " + list.getClass().getSimpleName() + " index " + index);
-
-		// Get the start time
-		LocalDateTime start = LocalDateTime.now(); // You will learn about this class
-
-		list.get(index);
-
-		// Get the end time
-		LocalDateTime end = LocalDateTime.now();
-
-		// Duration can calculate time elapsed
-		Duration d = Duration.between(start, end);
-		System.out.println(list.getClass().getSimpleName() + " " + d.toMillis() + " milliseconds");
-	}
-
-	private void fillLargeList(List<Planet> list) {
-		int numElements = 10_000_000;
-		System.out.println("Adding to " + list.getClass().getSimpleName() + "...");
-		for (int i = 0; i < numElements; i++) {
-			list.add(new Planet("Planet", 100, 100));
-		}
-	}
-}
-```
-
-`Lab 1 - NumbersList.java`
-```java
-import java.util.LinkedList;
-import java.util.List;
-
-public class NumbersList {
-	public static void main(String[] args) {
-		NumbersList nl = new NumbersList();
-		nl.run();
-	}
-
-	private void run() {
-		List<Integer> numbers = new LinkedList<>();
-
-		for (int i = 0; i < 10; i++) {
-			numbers.add((int) (10 + Math.random() * (90 + 1)));
-		}
-
-		System.out.println(numbers);
-	}
-}
-```
-
-`Lab 2 - SortNumbersList.java`
-```java
-import java.util.LinkedList;
-import java.util.List;
-
-public class SortNumbersList {
-	public static void main(String[] args) {
-		SortNumbersList snl = new SortNumbersList();
-		snl.run();
-	}
-
-	private void run() {
-		List<Integer> numbers = new LinkedList<>();
-
-		for (int i = 0; i < 10; i++) {
-			numbers.add((int) (10 + Math.random() * (90 + 1)));
-		}
-
-		System.out.println("Before Sort:");
-		System.out.println(numbers);
-
-		sortAndPrintList(numbers);
-	}
-
-	private void sortAndPrintList(List<Integer> numbers) {
-		// bubbleSort(numbers);
-		insertionSort(numbers);
-		System.out.println("After sort");
-		System.out.println(numbers);
-	}
-
-	private void bubbleSort(List<Integer> nums) {
-		boolean swapped = true;
-		while (swapped) {
-			swapped = false;
-			for (int i = 0; i < nums.size() - 1; i++) {
-				if (nums.get(i) > nums.get(i + 1)) {
-					// swap elements
-					int temp = nums.get(i);
-					nums.set(i, nums.get(i + 1));
-					nums.set(i + 1, temp);
-					swapped = true;
-				}
-			}
-		}
-	}
-
-	private void insertionSort(List<Integer> nums) {
-		for (int i = 1; i < nums.size(); i++) {
-			int temp = nums.get(i);
-			int j = i;
-
-			while (j > 0 && nums.get(j - 1) > temp) {
-				nums.set(j, nums.get(j - 1));
-				j--;
-			}
-			nums.set(j, temp);
-		}
-
-	}
-}
-```
-
-#### Exceptions
-1. Introduction to Exceptions
-2. The Exception Class
-3. Checked Exceptions
-4. Labs - Handling Exceptions
-5. The Throwable Hierarchy *
-6. Throwing Your Own Exceptions *
-7. Exceptions and Inheritance *
-8. finally
-9. Labs *
-
-`Exceptions/com.skilldistillery.exceptions.drills.TryCatchDrill`
-```java
-package com.skilldistillery.exceptions.drills;
-
-import java.util.InputMismatchException;
-
-import java.util.Scanner;
-
-public class TryCatchDrill {
-
-	public static void main(String[] args) {
-		TryCatchDrill drill = new TryCatchDrill();
-		Scanner scanner = new Scanner(System.in);
-		drill.launch(scanner);
-		scanner.close();
-
-	}
-
-	private void launch(Scanner scanner) {
-		String keepGoing = "Y";
-		while (keepGoing.toUpperCase().equals("Y")) {
-			System.out.print("Enter a whole number: ");
-			try {
-				int number = scanner.nextInt();
-				if (number % 2 == 0) {
-					System.out.println(number + " is even.");
-				} else {
-					System.out.println(number + " is odd.");
-				}
-			} catch (InputMismatchException e) {
-				System.out.println("Invalid input.");
-				scanner.nextLine(); // Clear input buffer
-			}
-			System.out.print("Keep going? (Y/N)");
-			keepGoing = scanner.next();
-		}
-	}
-}
-```
-
-`Exceptions/com.skilldistillery.exceptions.drills.TryCatchDrill`
-```java
-package com.skilldistillery.exceptions.drills;
-
-import java.util.InputMismatchException;
-
-import java.util.Scanner;
-
-public class TryCatchDrill {
-
-	public static void main(String[] args) {
-		TryCatchDrill drill = new TryCatchDrill();
-		Scanner scanner = new Scanner(System.in);
-		drill.launch(scanner);
-		scanner.close();
-
-	}
-
-	private void launch(Scanner scanner) {
-		String keepGoing = "Y";
-		while (keepGoing.toUpperCase().equals("Y")) {
-			System.out.print("Enter a whole number: ");
-			try {
-				int number = scanner.nextInt();
-				if (number % 2 == 0) {
-					System.out.println(number + " is even.");
-				} else {
-					System.out.println(number + " is odd.");
-				}
-			} catch (InputMismatchException e) {
-				System.err.println("Invalid input.");
-				scanner.nextLine(); // Clear input buffer
-			}
-			System.out.print("Keep going? (Y/N)");
-			keepGoing = scanner.next();
-		}
-	}
-}
-```
-
-`ErrorDrill.java`
-```java
-public class ErrorDrill {
-	private static int callCount;
-
-	public static void main(String[] args) {
-		ErrorDrill drill = new ErrorDrill();
-		drill.callMe();
-	}
-
-	private void callMe() {
-		// 1. Increment callCount
-		callCount++;
-
-		// 2. Print out callCount
-		System.out.println(callCount);
-
-		// 3. Call callMe()
-		this.callMe();
-
-		// 4. Print "callMe finished."
-		System.out.println("callMe finished.");
-	}
-}
-```
-
-`Exceptions/com.skilldistillery.exceptions.drills.TryCatchDrill`
-```java
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
-public class TryCatchDrill {
-
-	public static void main(String[] args) {
-		TryCatchDrill drill = new TryCatchDrill();
-		Scanner scanner = new Scanner(System.in);
-		drill.launch(scanner);
-		scanner.close();
-	}
-
-	private void launch(Scanner scanner) {
-		String keepGoing = "Y";
-		while (keepGoing.toUpperCase().equals("Y")) {
-			System.out.print("Enter a whole number: ");
-			try {
-				int number = scanner.nextInt();
-				if (number % 2 == 0) {
-					System.out.println(number + " is even.");
-				} else {
-					System.out.println(number + " is odd.");
-				}
-			} catch (InputMismatchException e) {
-				System.out.println("Invalid input.");
-				scanner.nextLine(); // Clear input buffer
-			}
-			System.out.print("Keep going? (Y/N)");
-			keepGoing = scanner.next();
-		}
-	}
-}
-```
-
-`Lab 1 - Circle.java`
-```java
-import static java.lang.Math.*;
-
-public class Circle extends Shape {
-	double radius;
-
-	public double getRadius() {
-		return radius;
-	}
-
-	public void setRadius(double radius) {
-		if (radius <= 0) {
-			throw new IllegalArgumentException("Radius must be greater than zero.");
-		}
-		this.radius = radius;
-
-	}
-
-	@Override
-	public double getArea() {
-		return PI * pow(radius, 2);
-	}
-
-	public Circle(double radius) {
-		super();
-		this.setRadius(radius);
-	}
-
-	public Circle() {
-		super();
-	}
-
-	public Circle(int xCoordinate, int yCoordinate) {
-		super(xCoordinate, yCoordinate);
-	}
-
-	public Circle(int xCoordinate, int yCoordinate, double radius) {
-		super(xCoordinate, yCoordinate);
-		this.setRadius(radius);
-	}
-
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Circle [radius=").append(radius).append("]");
-		return builder.toString();
-	}
-}
-```
-
-`Lab 1 - Rectangle.java`
-```java
-public class Rectangle extends Shape {
-	double width;
-	double height;
-
-	public double getWidth() {
-		return width;
-	}
-
-	public void setWidth(double width) {
-		if (width <= 0) {
-			throw new IllegalArgumentException("Width must be greater than zero.");
-		}
-	  this.width = width;
-  }
-
-	public double getHeight() {
-		return height;
-	}
-
-	public void setHeight(double height) {
-		if (height <= 0) {
-			throw new IllegalArgumentException("Height must be greater than zero.");
-		}
-		this.height = height;
-	}
-
-	@Override
-	public double getArea() {
-		return width * height;
-	}
-
-	public Rectangle(double width, double height) {
-		super();
-		this.setWidth(width);
-		this.setHeight(height);
-	}
-
-	public Rectangle() {
-		super();
-	}
-
-	public Rectangle(int xCoordinate, int yCoordinate) {
-		super(xCoordinate, yCoordinate);
-	}
-
-	public Rectangle(int xCoordinate, int yCoordinate, double width, double height) {
-		super(xCoordinate, yCoordinate);
-		this.setWidth(width);
-		this.setHeight(height);
-	}
-
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Rectangle [width=").append(width).append(", height=").append(height).append("]");
-		return builder.toString();
-	}
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		long temp;
-		temp = Double.doubleToLongBits(height);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		temp = Double.doubleToLongBits(width);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		return result;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Rectangle other = (Rectangle) obj;
-		if (Double.doubleToLongBits(height) != Double.doubleToLongBits(other.height))
-			return false;
-		if (Double.doubleToLongBits(width) != Double.doubleToLongBits(other.width))
-			return false;
-		return true;
-	}
-}
-```
-
-`Lab 1 - ShapeTester.java`
-```java
-public class ShapeTester {
-  private Shape[] shapes;
-
-  public static void main(String[] args) {
-    ShapeTester tester = new ShapeTester();
-    tester.test();
-  }
-
-  private void test() {
-    shapes = new Shape[10];
-    
-    shapes[0] = new Circle(2.2);
-    shapes[1] = new Rectangle(2.0, 4.0);
-    shapes[2] = new Circle(0);  // Exception in thread "main" java.lang.IllegalArgumentException: Radius must be greater than zero.
-    // Execution stops, and the exception propagates to main() and then to the JVM, which exits.
-    shapes[3] = new Rectangle(3.0, -5.0);
-    shapes[4] = new Rectangle(17.7, 31.1);
-    
-    printShapes(shapes);
-  }
-
-  private void printShapes(Shape[] shapes) {
-    for (Shape shape : shapes) {
-      if (shape != null) {
-        System.out.println(shape + ", area="+shape.getArea());
-      }
-    }
-  }
-}
-```
-
-`Lab 2 - ShapeTester.java`
-```java
-public class ShapeTester {
-	private Shape[] shapes;
-
-	public static void main(String[] args) {
-		ShapeTester tester = new ShapeTester();
-		tester.test();
-	}
-
-	private void test() {
-		shapes = new Shape[10];
-
-		try {
-			shapes[0] = new Circle(2.2);
-			shapes[1] = new Rectangle(2.0, 4.0);
-			shapes[2] = new Circle(0); // Exception in thread "main" java.lang.IllegalArgumentException: Radius must be
-										// greater than zero.
-			// Execution stops, and the exception propagates to main() and then to the JVM,
-			// which exits.
-			shapes[3] = new Rectangle(3.0, -5.0);
-			shapes[4] = new Rectangle(17.7, 31.1);
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		printShapes(shapes);
-	}
-
-	private void printShapes(Shape[] shapes) {
-		for (Shape shape : shapes) {
-			if (shape != null) {
-				System.out.println(shape + ", area=" + shape.getArea());
-			}
-		}
-	}
-}
-```
-
-`Lab 3 - ShapeTester.java`
-```java
-public class ShapeTester {
-	private Shape[] shapes;
-
-	public static void main(String[] args) {
-		ShapeTester tester = new ShapeTester();
-		tester.test();
-	}
-
-	private void test() {
-		shapes = new Shape[10];
-
-		try {
-			shapes[0] = new Circle(2.2);
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		try {
-			shapes[1] = new Rectangle(2.0, 4.0);
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		try {
-			shapes[2] = new Circle(0); // Exception in thread "main" java.lang.IllegalArgumentException: Radius must be
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		// greater than zero.
-		// Execution stops, and the exception propagates to main() and then to the JVM,
-		// which exits.
-
-		try {
-			shapes[3] = new Rectangle(3.0, -5.0);
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		try {
-			shapes[4] = new Rectangle(17.7, 31.1);
-		} catch (IllegalArgumentException e) {
-			System.err.println(e.getMessage());
-		}
-
-		printShapes(shapes);
-	}
-
-	private void printShapes(Shape[] shapes) {
-		for (Shape shape : shapes) {
-			if (shape != null) {
-				System.out.println(shape + ", area=" + shape.getArea());
-			}
-		}
-	}
-}
-```
-
-`Lab 4 - Circle.java`
-```java
-
-```
-
-`Lab 4 - Rectangle.java`
-```java
-
-```
-
-`Lab 4 - ShapeTester.java`
-```java
-
-```
-
-#### Project: Data Entry with Exceptions
-
-### Week 3 - Day 2
-
-#### Testing Exceptions with JUnit
-1. JUnit and Exceptions
-2. Testing Exceptions with try and catch
-3. Labs
-
-``
-```java
-
-```
-
-#### Input/Output Streams
-1. Overview of Streams
-2. File Object
-3. BufferedReader
-4. PrintStream and PrintWriter
-5. Closing Streams
-6. Labs
-
-`Lab 1 - SearchEmployees.java`
-```java
-
-```
-
-`Lab 2 - PlanetReader.java`
-```java
-
-```
-
-`Lab 3 - PlanetReader2.java`
-```java
-
-```
-
-`Lab 4 - SearchEmployees.java`
-```java
-
-```
-
-#### The Set Interface
-1. The Set Interface
-2. Set Implementation Classes - HashSet and LinkedHashSet
-3. Iterator Explained *
-4. SortedSet Interface and TreeSet Class
-5. Collection Superinterface
-6. Labs
-
-`SetInterface/com.skilldistillery.setinterface.drills.SetTest`
-```java
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
-public class SetTest {
-
-  public static void main(String[] args) {
-    SetTest st = new SetTest();
-    st.launch();
-  }
-  
-  public void launch() {
-    Album al1 = new Album(1, "The Beatles", "The Beatles 1");
-    Album al2 = new Album(2, "Prince", "The Very Best of Prince");
-    Album al3 = new Album(3, "AC/DC", "Let There Be Rock");
-    Album al4 = new Album(3, "AC/DC", "Let There Be Rock");
-    
-    Set<Album> albumCollection = new HashSet<>();
-    
-    // Place each call to add in a System.out.println() and run
-    // the application. 
-    System.out.println(albumCollection.add(al1));
-    System.out.println(albumCollection.add(al2));
-    System.out.println(albumCollection.add(al3));
-    System.out.println(albumCollection.add(al4));
-    
-//    albumCollection.add(al1);
-//    albumCollection.add(al2);
-//    albumCollection.add(al3);
-//    albumCollection.add(al4); //Doesn't get added because duplicate only store unique elements.
-    
-    printAlbums(albumCollection);
-  }
-  
-  private void printAlbums(Set<Album> collection) {
-    Iterator<Album> it = collection.iterator();
-    while (it.hasNext()) {
-      System.out.println(it.next());
-    }
-  }
-}
-```
-
-`SetInterface/com.skilldistillery.setinterface.drills.SportsTeamApp`
-```java
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
-public class SportsTeamApp {
-
-	public static void main(String[] args) {
-		SportsTeamApp app = new SportsTeamApp();
-		app.launch();
-	}
-
-	private void launch() {
-		SportsTeam t1 = new SportsTeam("Denver", "Vampires");
-		SportsTeam t2 = new SportsTeam("Michigan", "Werewolves");
-		SportsTeam t3 = new SportsTeam("Derry", "Clowns");
-		SportsTeam t4 = new SportsTeam("Derry", "Clowns");
-		SportsTeam t5 = new SportsTeam("Houston", "Chupacabras");
-
-		Set<SportsTeam> teams = new HashSet<>();
-		addTeam(teams, t1);
-		addTeam(teams, t2);
-		addTeam(teams, t3);
-		addTeam(teams, t4);
-		addTeam(teams, t5);
-
-		// Iterate through the contents of the Set using an iterator, and print them to
-		// the screen.
-		Iterator<SportsTeam> st = teams.iterator();
-		while (st.hasNext()) {
-			SportsTeam s = st.next();
-			System.out.println(s);
-		}
-
-		// If the results are not as expected, fix SportsTeam.
-	}
-
-	// Change addTeam() to add the object to the Set.
-	private void addTeam(Set<SportsTeam> set, SportsTeam t) {
-		boolean added = set.add(t);
-		System.out.println(t.getName() + " added: " + added);
-	}
-}
-```
-
-`SetInterface/com.skilldistillery.setinterface.drills.CollectionTest`
-```java
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-
-public class CollectionTest {
-
-	public static void main(String[] args) {
-		// Assign an ArrayList to c1
-		Collection<String> c1 = new ArrayList<>();
-
-		// Add four Strings to c1 - your choice of Strings.
-		c1.add("A");
-		c1.add("B");
-		c1.add("C");
-		c1.add("D");
-
-		// Call addAll(c1) on c1; you are trying to add the elements of c1
-		// to what is already in c1. Store the result of addAll in a variable
-		// and print it to the screen.
-		boolean result = c1.addAll(c1);
-
-		// Collection classes have good toString() methods, so we will use
-		// System.out.println() to see the contents.
-		System.out.println("Contents of c1: " + c1);
-		System.out.println("Result of addAll is " + result);
-
-		// Repeat the process with c2, using a HashSet
-		Collection<String> c2 = new HashSet<>();
-		c2.add("D");
-		c2.add("E");
-		c2.add("F");
-		c2.add("G");
-
-		result = c2.addAll(c1);
-
-		System.out.println("Contents of c2: " + c2);
-		System.out.println("Result is " + result);
-	}
-}
-```
-
-`Lab 1 - NameApp.java`
-```java
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-public class NameApp {
-
-	public static void main(String[] args) {
-		NameApp nA = new NameApp();
-		nA.run();
-	}
-
-	public void run() {
-		// Initializes two collections: A List named 'listToFill' and a Set named
-		// 'setToFill'
-		List<String> listFill = new ArrayList<String>();
-		Set<String> setFill = new HashSet<>();
-
-		// Call the readNamesIntoCollections method, passing in the two collections
-		// (listToFill and setToFill)
-		// as arguments and assigns the returned number of lines to the variable
-		// numLines.
-		int numLines = namesInCollection(listFill, setFill);
-
-		// Print the sizes of the List and Set to the console, as well as the number of
-		// lines in the file.
-		System.out.println("List Size: " + listFill.size());
-		System.out.println("Set Size: " + setFill.size());
-		System.out.println("Lines in File: " + numLines);
-	}
-
-	// Define a private method 2 args: 'List<String> namesList, Set<String>
-	// namesSet'
-	private int namesInCollection(List<String> namesList, Set<String> namesSet) {
-		// Initialize a variable numLines to 0 and declare a BufferedReader named reader
-		// and set it to null.
-		BufferedReader reader = null;
-		int numLines = 0;
-		try {
-			reader = new BufferedReader(new FileReader("names.txt"));
-			String line;
-			// While line !=null it adds each line to both namesList and namesSet, and
-			// increments numLines.
-			while ((line = reader.readLine()) != null) {
-				namesList.add(line);
-				namesSet.add(line);
-				numLines++;
-			}
-			// When the program tries to open a file that doesn't exist at the specified
-			// path.
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-			// General Exception.
-		} catch (IOException e) {
-			e.printStackTrace();
-			// Object that is null.
-		} finally {
-			if (reader != null) {
-				try {
-					reader.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		return numLines;
-	}
-}
-```
-
-#### Project: Name Separator App
-
-### Week 3 - Day 3
-
-#### Garbage Collection
-1. Objects on the Heap
-2. Garbage Collection
-3. Memory Management Strategies
-4. The finalize method
-5. Understanding Garbage Collection
-6. Labs
-
-``
-```java
-
-```
-
-#### Debugging Programs
-1. What is Debugging?
-2. Commenting Out Code
-3. Manual Output in Code
-4. Making Debugging Print Statements Conditional
-5. Tools to Debug Programs
-6. Debugging in Eclipse
-7. The Debug Perspective
-8. Breakpoints
-9. Examining Variables
-10. Controlling Program Execution
-11. Labs
-
-``
-```java
-
-```
-
-#### Homework Project: Jets
-
-### Week 3 - Day 4
-
-#### Regular Expressions
-1. Introducing Regular Expressions
-2. Options
-3. Literals and Wild Cards
-4. Assertions
-5. Quantifiers
-6. Labs 1
-7. Grouping and Alternatives
-8. Labs 2
-
-``
-```java
-
-```
-
-#### Regular Expressions in Java
-1. Regular Expressions in Java
-2. The Pattern Class
-3. The Matcher Class
-4. Capturing Groups
-5. String Methods That Use Regular Expressions
-6. Labs
-
-``
-```java
-
-```
-
-#### The Map Interface
-1. The Map Collection
-2. Map Implementation Class - HashMap
-3. Map Implementation Classes - Hashtable, LinkedHashMap, and TreeMap
-4. When to Use a Map *
-5. Labs
-
-``
-```java
-
-```
-
-#### Project: Project: Pig Latin
-
-#### Project: Project: Declaration of Independence
-
-### Week 3 - Day 5
-
-#### Collection Sorting and Tuning
-1. Sorting with Comparable
-2. Sorting with Comparator
-3. Sorting Lists
-4. Sorting Maps
-5. Sorting Arrays
-6. Collections Utility Methods
-7. Labs
-
-``
-```java
-
-```
-
-#### Project: Lottery: NBA Draft
-
-#### Project: Lottery: Powerball
-
-### Week 3 - Day 6
-
-#### HashMap Internals
-1. Keys and hashCode
-2. Hash Buckets
-3. Map Entries
-4. Tuning HashMap
-5. Labs
-
-``
-```java
-
-```
-
-#### Project: Project: Mad Libs
-
-### Week 3 - Day 7
-
-#### The Java Virtual Machine
-1. The Java Virtual Machine
-2. The Java Runtime Environment
-3. The Java Development Kit
-4. The Java Language Specification
-5. Labs
-
-``
-```java
-
-```
-
-#### The args Array
-1. The main Method
-2. The args Array
-3. Handling Command-Line Arguments
-4. Testing args In Eclipse
-5. Labs
-
-``
-```java
-
-```
-
-#### Intermediate Interfaces
-1. Smart Home - Part 2
-2. Interface Fields
-3. Interface Inheritance
-4. Static Interface Methods
-5. Interface Default Methods
-6. Multiple Inheritance
-7. Labs
-
-``
-```java
-
-```
-
-#### Project: Roman Numerals
-
-#### Project: Project: White Rabbit
-
-### Week 3 - Day 8
-
-#### Enumerated Types
-1. enum Types
-2. enum Details
-3. Using enum
-4. enum Methods
-5. enum Members
-6. Labs
-
-``
-```java
-
-```
-
-#### Homework Project: Blackjack
-
-### Week 3 - Day 9
-
-#### Dates and Times
-1. Temporal Data
-2. LocalDate
-3. LocalTime
-4. Date-Times and Instant
-5. Duration and Period
-6. DateTimeFormatter
-7. Labs
-
-``
-```java
-
-```
-
-#### Project: History
-
-#### Project: Working with Dates and Times
-
-#### Inner Classes
-1. Inner Classes
-2. Member Classes
-3. Local Classes
-4. Anonymous Classes
-5. Anonymous Classes and Interfaces
-6. Instance Initializers
-7. Compiling Inner Classes
-8. Labs
-
-``
-```java
-
-```
-
-#### Project: Sorting and Filtering with Inner Classes
-
-### Week 3 - Day 10
-
-#### Introduction to Lambda Expressions
-1. Inner Classes Review
-2. Lambda Expressions
-3. Translating Inner Classes to Lambdas
-4. Lambda Rules and Syntax
-5. Lambdas and Interfaces
-6. Predicate<T> Functional Interface *
-7. Standard Functional Interfaces *
-8. Labs *
-
-#### Project: Sorting and Filtering with Lambdas
-
-#### Lambda Examples
-
-### Week 3 - Day 11
-
-#### JUnit 5
-1. Introduction
-2. Test Cases
-3. Test Case Setup
-4. Test Method Names
-5. Assertions
-6. Testing Exceptions
-7. Labs
-
-``
-```java
-
-```
-
-## [Week 4]()
-
-### Test
-
-### Week 4 - Day 4
-
-#### Regular Expressions
-
-#### Regular Expressions in Java
-1. Regular Expressions in Java
-2. The Pattern Class
-3. The Matcher Class
-4. Capturing Groups
-5. String Methods That Use Regular Expressions
-6. Labs
-
-``
-```java
-private void listZipsAndAreaCodes(String fileName) {
-//		 13002 N Pennsylvania Avenue, Oklahoma City, OK 73120 <br />405-936-4264
-//		 999 E. Basse Rd. San Antonio, TX 78209 <br />(210) 824-1603
-		String regex = "\\b[A-Z]{2}\\b\\s+\\d{5}.*?/>\\s*\\(?\\d{3}\\b";
-		Pattern p = Pattern.compile(regex);
-		Matcher m = p.matcher("");
-		try {
-			BufferedReader br = new BufferedReader(new FileReader(fileName));
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				m.reset(line);
-
-				// See if the regex matches the line.
-				if (m.find()) {
-					// If so, print the line
-					System.out.println(line);
-				}
-
-			}
-			br.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-```
