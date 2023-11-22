@@ -25,8 +25,40 @@ parser.parse();
 ```
 
 `Lab 1 - ProductMain`
+
 ```java
 package com.skilldistillery.packages.labs;
+
+import com.skilldistillery.packages.Util;
+import com.skilldistillery.Helper;
+
+public class ProductMain {
+
+	Product product;
+
+	public static void main(String[] args) {
+		ProductMain app = new ProductMain();
+		app.go();
+	}
+
+	public ProductMain() {
+		product = new Product();
+	}
+
+	public void go() {
+		Util.utilMethod();
+		Helper.helperMethod();
+	}
+}
+```
+
+`Lab 2 - ProductMainStatics`
+
+```java
+package com.skilldistillery.packages.labs;
+
+import static com.skilldistillery.packages.Util.utilMethod;
+import static com.skilldistillery.Helper.helperMethod;
 
 public class ProductMainStatics {
 
@@ -57,8 +89,22 @@ public class ProductMainStatics {
 6. Writing toString() Methods
 7. Labs
 
-`StringAndStringBuilder/com.skilldistillery.stringstringbuilder.drills.StringPoolTesting`
 ```java
+//Because each String is immutable, and the values of all your string literals are known at compile time, Java is able to use the String Pool to save memory.
+//The term for this is interning.
+```
+
+```java
+String chip = "Potato" + "Chip"; // "PotatoChip" will be interned in the String Pool.
+String fry = "Fry";
+String french = "French" + fry;  // "FrenchFry" will NOT be interned.
+```
+
+`StringAndStringBuilder/com.skilldistillery.stringstringbuilder.drills.StringPoolTesting`
+
+```java
+package com.skilldistillery.stringstringbuilder.drills;
+
 class OtherClass {
 	public static String coding = "AlwaysCoding";
 }
@@ -86,7 +132,7 @@ public class StringPoolTesting {
 		System.out.println(coding == "AlwaysCoding");
 //     true or false: true
 		System.out.println(coding == "Always" + "Coding");
-//     true or false: flase
+//     true or false: false
 		System.out.println(coding == always + "Coding");
 //     true or false: true
 		System.out.println(coding == "Al" + "waysCoding");

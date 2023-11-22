@@ -179,10 +179,9 @@ public class AgeInitial {
 
 	public static void main(String[] args) {
 		int age = 31;
-		char mi;
-		mi = 'H';
+		char middleInt = 'H';
 
-		System.out.println("James " + mi + " Bond" + ": Age: " + age);
+		System.out.println("James " + middleInt + " Bond" + ": Age: " + age);
 	}
 }
 ```
@@ -197,9 +196,7 @@ public class StudentScores {
 		double score2 = 33.3;
 		double score3 = 80.0;
 		double score4 = 90.0;
-		double average;
-
-		average = (score1 + score2 + score3 + score4) / 4;
+		double average = (score1 + score2 + score3 + score4) / 4;
 
 		System.out.println("Score 1: " + score1);
 		System.out.println("Score 2: " + score2);
