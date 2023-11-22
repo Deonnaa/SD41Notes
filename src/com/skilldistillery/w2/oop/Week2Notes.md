@@ -143,29 +143,37 @@ public class StringPoolTesting {
 ```
 
 `StringAndStringBuilder/src/com.skilldistillery.stringstringbuilder.drills.SSNMasker`
+
 ```java
 public class SSNMasker {
 
-	/**
-	 * Returns an SSN (Social Security Number) string with the first five digits
-	 * replaced with 'X'.
-	 * 
-	 * @param ssn An SSN sting in the format 123-45-6789
-	 * @return A masked SSN string in the format XXX-XX-6789
-	 */
-	public String maskSSN(String ssn) {
-		String maskedSSN = null;
+  /**
+   * Returns an SSN (Social Security Number) string with the first five
+   * digits replaced with 'X'.
+   * @param ssn
+   * An SSN sting in the format 123-45-6789
+   * @return
+   * A masked SSN string in the format XXX-XX-6789
+   */
+  public String maskSSN(String ssn) {
+    String maskedSSN = null;
+    
+    // CODE HERE
+    // use substring and concatenation to return a masked SSN.
+    
+    String lastFour = ssn.substring(7,11);
+//    String lastFour = ssn.substring(7); // Or this.
+    
+    maskedSSN = "XXX-XX-" + lastFour;
+    
+    return maskedSSN;
+  }
 
-		// CODE HERE
-		// use substring and concatenation to return a masked SSN.
-		String lastFour = ssn.substring(7, 11);
-		maskedSSN = "XXX-XX-" + lastFour;
-		return maskedSSN;
-	}
 }
 ```
 
 `StringAndStringBuilder/test/com.skilldistillery.stringstringbuilder.drills.SSNMaskerTests`
+
 ```java
 public class SSNMaskerTests {
   SSNMasker masker;
@@ -194,7 +202,18 @@ public class SSNMaskerTests {
 }
 ```
 
+`UserComment.java`
+
+```java
+@Override
+	public String toString() {
+		return "UserComment [commentId=" + commentId + ", inReplyToComment=" + inReplyToComment + ", date=" + date
+				+ ", time=" + time + ", userName=" + userName + ", commentText=" + commentText + "]";
+	}
+```
+
 `StringAndStringBuilder/com.skilldistillery.stringstringbuilder.drills.UserCommentDriver`
+
 ```java
 public class UserCommentDriver {
 
@@ -205,7 +224,6 @@ public class UserCommentDriver {
 
 	private void go() {
 		UserComment comment1 = new UserComment(42, null, "2018-01-04", "14:59:23", "bdobbs", "I love coding in Java!");
-
 		UserComment comment2 = new UserComment(47, comment1, "2018-01-04", "15:03:12", "jsmith", "Me too!");
 
 		System.out.println(comment1);
@@ -214,17 +232,9 @@ public class UserCommentDriver {
 	}
 }
 ```
-```java
-//UserComment.java
-
-@Override
-	public String toString() {
-		return "UserComment [commentId=" + commentId + ", inReplyToComment=" + inReplyToComment + ", date=" + date
-				+ ", time=" + time + ", userName=" + userName + ", commentText=" + commentText + "]";
-	}
-```
 
 `Lab 1 - StringLab.java`
+
 ```java
 public class StringLab {
 
@@ -262,6 +272,7 @@ public class StringLab {
 ```
 
 `Lab 2 - StringBuilderLab.java`
+
 ```java
 public class StringBuilderLab {
 
@@ -274,31 +285,32 @@ public class StringBuilderLab {
 		String original = "Java world.";
 
 		StringBuilder sb = new StringBuilder(original);
-		System.out.println(sb);
+		System.out.println(sb); // Java world.
 
 		// Use only StringBuilder methods on sb to change the text to:
 		// Hello, Java coding world! Always Be Coding!
 		// Print out sb after each step.
 
 		sb.setCharAt(sb.length() - 1, '!');
-		System.out.println(sb);
+		System.out.println(sb); // Java world!
 
 		sb.insert(5, "coding ");
-		System.out.println(sb);
+		System.out.println(sb); // Java coding world!
 
 		sb.insert(0, "Hello, ");
-		System.out.println(sb);
+		System.out.println(sb); // Hello, Java coding world!
 
 		sb.append(" Always Be Coding!");
-		System.out.println(sb);
+		System.out.println(sb); // Hello, Java coding world! Always Be Coding!
 
 		String result = sb.toString();
-		System.out.println(result);
+		System.out.println(result); // Hello, Java coding world! Always Be Coding!
 	}
 }
 ```
 
 `Lab 3 - UserComment.java`
+
 ```java
 @Override
   public String toString() {
@@ -309,6 +321,7 @@ public class StringBuilderLab {
 ```
 
 `Lab 4 - UserComment2.java`
+
 ```java
 @Override
   public String toString() {
@@ -326,6 +339,7 @@ public class StringBuilderLab {
 ```
 
 `Lab 5 - UserComment3.java`
+
 ```java
 @Override
   public String toString() {
@@ -348,6 +362,121 @@ public class StringBuilderLab {
 
 #### Project: Mad Libs
 
+`MadLibsApp.java`
+
+```java
+package com.skilldistillery.stringstringbuilder.labs;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class MadLibsApp {
+	private String[][][] longStories = { { { "There once was a ", "NOUN" }, { " from ", "NOUN" },
+			{ ". It was very ", "ADJECTIVE" }, { ".\nOne day it ", "VERB" }, { " a ", "NOUN" },
+			{ ".\n\"", "EXCLAMATION" }, { "!\" it cried. \"You are some kind of ", "NOUN" }, { ".\"\n\"", "VERB" },
+			{ " yourself,\" was the reply.\nThe end.", null } } };
+	private String[][][] shortStories = {
+			{ { "There once was a ", "NOUN" }, { " from ", "NOUN" }, { ". It was very ", "ADJECTIVE" },
+					{ ". One day it ", "VERB" }, { " a ", "NOUN" },
+					{ ". There are no words for this kind of ", "VERB" }, { ". The end.", null } },
+			{ { "Once upon a time, a ", "NOUN" }, { " ", "VERB" }, { " a ", "NOUN" },
+					{ ".  It was very ", "ADJECTIVE" }, { ".", null } } };
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		MadLibsApp app = new MadLibsApp();
+		app.launch(input);
+
+		input.close();
+	}
+
+	public void launch(Scanner input) {
+		System.out.println("== Welcome to Mad Libs ===");
+		mainMenuLoop(input);
+		System.out.println(" We hope you had fun, thank you for playing!");
+	}
+
+	private void mainMenuLoop(Scanner input) {
+		boolean keepGoing = true;
+		while (keepGoing) {
+			System.out.println("Would you like a long or short story?");
+			System.out.println("1. Long story");
+			System.out.println("2. Short story");
+			System.out.println("0. Quit");
+			System.out.print("Choice: ");
+			int choice = 0;
+			try {
+				choice = input.nextInt();
+			} catch (InputMismatchException e) {
+				choice = -1;
+			}
+			input.nextLine(); // clear input buffer
+			switch (choice) {
+			case 1:
+				outputLongStory(input);
+				break;
+			case 2:
+				outputStory(input);
+				break;
+			case 0:
+				keepGoing = false;
+				break;
+			case -1:
+				System.out.println("Enter a number please.");
+				break;
+			default:
+				System.out.println("That's not an option.");
+				break;
+			}
+		}
+	}
+
+	private void outputStory(Scanner input) {
+		System.out.println("OK, we'll keep it short.");
+		String[][] madLib = shortStories[(int) (Math.random() * shortStories.length)];
+		String story = processMadLibs(input, madLib);
+		System.out.println("== Story ====================");
+		System.out.println(story);
+		System.out.println("=============================\n");
+	}
+
+	private void outputLongStory(Scanner input) {
+		System.out.println("A long story it is, then.");
+		String[][] madLib = longStories[(int) (Math.random() * longStories.length)];
+		String story = processMadLibs(input, madLib);
+		System.out.println("== Story ====================");
+		System.out.println(story);
+		System.out.println("=============================\n");
+	}
+
+	private String processMadLibs(Scanner input, String[][] story) {
+		StringBuilder storyBuilder = new StringBuilder();
+		for (String[] storyFragment : story) {
+			addMadLibInput(input, storyBuilder, storyFragment);
+		}
+		return storyBuilder.toString();
+	}
+
+	private void addMadLibInput(Scanner input, StringBuilder storyBuilder, String[] storyFragment) {
+		// Each story fragment has two elements:
+		// some story text, and a part of speech.
+		// If the part of speech isn't null,
+		// - Prompt the user to enter the part of speech.
+		// - Read their input with the input Scanner.
+		// - Append the input to the StringBuilder.
+		// If the part of speech is null, just append the story text.
+		storyBuilder.append(storyFragment[0]);
+		if (storyFragment[1] != null) {
+			System.out.print("Please enter a " + storyFragment[1] + ": ");
+			String word = input.nextLine();
+			storyBuilder.append(word);
+		}
+	}
+
+}
+```
+
 ### Week 2 - Day 2
 
 #### ASCII and Unicode Data
@@ -356,7 +485,13 @@ public class StringBuilderLab {
 3. Unicode
 4. Labs
 
+```java
+//ASCII character codes use only 7 of a byte's 8 bits. The other bit was used in older data transmission protocols.
+//ASCII is limited to 128 characters, suitable mainly for English text. Unicode, on the other hand, can represent a vast array of characters from various languages and even symbols like emojis.
+```
+
 `ASCIIData/com.skilldistillery.characters.drills.ASCIICharacters`
+
 ```java
 public class ASCIICharacters {
 
@@ -373,6 +508,7 @@ public class ASCIICharacters {
 ```
 
 `ASCIIData/com.skilldistillery.characters.drills.UnicodeOutput`
+
 ```java
 public class UnicodeOutput {
 
@@ -386,6 +522,7 @@ public class UnicodeOutput {
 ```
 
 `ASCIIData/com.skilldistillery.characters.drills.SuppChars`
+
 ```java
 public class SuppChars {
 
@@ -412,6 +549,7 @@ public class SuppChars {
 ```
 
 `Lab 1 - AlphaNumCheck.java`
+
 ```java
 public class AlphaNumCheck {
 
@@ -459,6 +597,7 @@ public class AlphaNumCheck {
 ```
 
 `Lab 2 - AlphaNumCheck.java`
+
 ```java
 public boolean checkAlphaNumSpaceSentence(String input) {
     char[] chars = input.toCharArray();
@@ -488,6 +627,7 @@ public boolean checkAlphaNumSpaceSentence(String input) {
 6. Visibility
 
 `Objects/com.skilldistillery.objs.drills.Dog`
+
 ```java
 public class Dog {
 	public String breed;
@@ -530,6 +670,7 @@ public class Dog {
 ```
 
 `Objects/com.skilldistillery.objs.drills.BankApp`
+
 ```java
 public class BankApp {
 
@@ -555,6 +696,58 @@ public class BankApp {
 //generate getters and setters
 ```
 
+`Account.java`
+
+```java
+public class Account {
+	private double balance;
+	private String accountId;
+
+	public Account(String aId) {
+		accountId = aId;
+	}
+
+	public Account(String aId, double initialBalance) {
+		balance = initialBalance;
+		accountId = aId;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public String getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(String accountId) {
+		this.accountId = accountId;
+	}
+
+	public void deposit(double amount) {
+		balance = balance + amount;
+	}
+
+	public void overdraftFine() {
+		System.out.println("You will be fined $25.00 overdraft fee.");
+	}
+
+	public void withdraw(double amount) {
+		if (balance >= amount) {
+			balance = balance - amount;
+		} else {
+			balance = 0;
+			overdraftFine();
+		}
+
+	}
+}
+```
+
 #### Drawing Objects and Their Relationships
 1. Representing Objects with Diagrams
 2. UML Class Diagram
@@ -572,6 +765,41 @@ public class BankApp {
 8. Test-Driven Development (TDD)
 9. Labs
 
+`StringManipulatorTests.java`
+
+```java
+public class StringManipulatorTests {
+
+  @Test
+  public void test_addExclamations_add_correct_number_of_exclamations() {
+    StringManipulator sm = new StringManipulator();
+    String input = "hello";
+    String expected = "hello!!!";
+    String output = sm.addExclamations(input, 3);
+    assertEquals(expected, output);
+  }
+  
+  @Test
+  public void test_addCharacters_add_correct_number_of_character() {
+    StringManipulator sm = new StringManipulator();
+    String input = "hello";
+    String expected = "hello!!!";
+    String output = sm.addCharacters(input, '!', 3);
+    assertEquals(expected, output);
+  }
+  
+//  @Test
+//  public void test_convertToArray_splits_String_into_array_on_char() {
+//    fail("implement");
+//  }
+//  
+//  @Test
+//  public void test_convertToArray_returns_empty_array_for_null_String() {
+//    fail("implement");
+//  }
+}
+```
+
 #### Project: Caesar Cipher
 
 ### Week 2 - Day 3
@@ -585,6 +813,7 @@ public class BankApp {
 6. Labs
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.BankApp`
+
 ```java
 public class BankApp {
 
@@ -608,6 +837,7 @@ public class BankApp {
 ```
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.Account`
+
 ```java
 	private double balance;
 	private String accountId;
@@ -632,6 +862,7 @@ public class BankApp {
 ```
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.BankApp`
+
 ```java
 public class BankApp {
 
@@ -655,6 +886,7 @@ public class BankApp {
 ```
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.Account`
+
 ```java
 public class Account {
 	  private double balance;
@@ -697,6 +929,7 @@ public class Account {
 ```
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.Student`
+
 ```java
 public class Student {
 
@@ -732,6 +965,7 @@ public class Student {
 ```
 
 `Encapsulation/com.skilldistillery.encapsulation.drills.Account`
+
 ```java
 public class Account {
 	private double balance;
@@ -774,6 +1008,7 @@ public class Account {
 ```
 
 `Lab 1 - Car.java`
+
 ```java
 public class Car {
 	private String make;
@@ -856,6 +1091,7 @@ public class Car {
 ```
 
 `Lab 1 - CarTester.java`
+
 ```java
 public class CarTester {
 
@@ -883,6 +1119,7 @@ public class CarTester {
 ```
 
 `Lab 2 - ParkingLot.java`
+
 ```java
 public class ParkingLot {
 	private int numCars;
@@ -920,6 +1157,7 @@ public class ParkingLot {
 ```
 
 `Lab 2 - ParkingLotTester.java`
+
 ```java
 public class ParkingLotTester {
 
@@ -972,24 +1210,275 @@ public class ParkingLotTester {
 5. Constant Fields and Variables
 6. private Methods
 7. Labs
+
 ```java
-public class Car2 {
-  private String make, model, color;
+//Java defines the order in which it initializes fields in a class.
+
+//1. static fields and static initializer blocks, in the order in which they appear in the file.
+//2. Instance fields and initializer blocks, in the order in which they appear in the file.
+//3. Constructor code.
+```
+
+`InitClassProgram.java`
+
+```java
+public class InitClassProgram {
+	static {
+		System.out.println("InitClassProgram static");
+	}
+
+	public static void main(String[] args) {
+		// instance of one
+		InitClassOne one = new InitClassOne();
+
+		// instance of two
+		InitClassTwo two = new InitClassTwo();
+
+		// TODO: Create an instance of InitClassOne
+		new InitClassOne();
+	}
+
+}
+```
+
+`OrderOfInitQuiz.java`
+
+```java
+public class OrderOfInitQuiz {
+
+	public static void main(String[] args) {
+		InitClassOne one = null;
+
+		InitClassTwo.staticTwo = true; // initialize a non-constant field
+
+		InitClassTwo two = new InitClassTwo();
+		InitClassTwo twoAgain = new InitClassTwo();
+
+		InitClassOne.aStaticMethod(); // static method call
+
+		// What do you expect the order of initialization to be? Write the classes and
+		// their members (static, instance, constructor) below.
+
+//		InitClassTwo static fields and static blocks (only once, upon first reference to the class).
+//		InitClassTwo instance fields and blocks, then the constructor (for the two object).
+//		InitClassTwo instance fields and blocks, then the constructor (for the twoAgain object).
+//		InitClassOne static fields and static blocks (only upon first reference to the class or its static method).
+```
+
+`Lab 1 - ParkingLot.java`
+
+```java
+public class ParkingLot {
+  private Car[] cars;
+  private int numCars = 0;
+  
+  final private static int MAX_CARS = 100;
+  
+  public ParkingLot() {
+    cars = new Car[MAX_CARS];
+  }
+  public void addCar(Car c) {
+    cars[numCars] = c;
+    numCars++;    // increment to reflect that we have one more car
+  }
+  
+  public Car[] getCars() {
+    Car[] carCopy;
+    carCopy = new Car[numCars];
+    for(int i=0; i < numCars; i++) {
+      carCopy[i] = cars[i];
+    }
+    
+    return carCopy;
+  }
+}
+```
+
+`Lab 1 - Car.java`
+
+```java
+public class Car {
+  private String make;
+  private String model;
+  private String color;
   private int numberOfWheels;
   private double purchasePrice;
 
-  public Car2(String make, String model, String color, int numberOfWheels) {
-    this(make, model, color, numberOfWheels, 0.0);
-  }
 
-  public Car2(String make, String model, String color, int numberOfWheels, double purchasePrice) {
+  public Car(String make, String model, String color, int numberOfWheels, double purchasePrice) {
     this.make = make;
     this.model = model;
     this.color = color;
     this.numberOfWheels = numberOfWheels;
     this.purchasePrice = purchasePrice;
   }
-  //...
+
+  public Car(String make, String model, String color, int numberOfWheels) {
+    this(make, model, color, numberOfWheels, 0.0);
+  }
+
+
+
+  public String getMake() {
+    return make;
+  }
+
+  public void setMake(String make) {
+    this.make = make;
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public void setModel(String model) {
+    this.model = model;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void setColor(String color) {
+    this.color = color;
+  }
+
+  public int getNumberOfWheels() {
+    return numberOfWheels;
+  }
+
+  public void setNumberOfWheels(int numberOfWheels) {
+    this.numberOfWheels = numberOfWheels;
+  }
+
+  public double getPurchasePrice() {
+    return purchasePrice;
+  }
+
+  public void setPurchasePrice(double purchasePrice) {
+    this.purchasePrice = purchasePrice;
+  }
+
+  public String toString() {
+    String output = "make=" + make + ", model=" + model + ", color=" + color + ", numberOfWheels=" + numberOfWheels
+        + ", purchasePrice=" + purchasePrice;
+    return output;
+  }
+
+  public void displayCar() {
+    String carData = this.toString();
+    System.out.println(carData);
+  }
+}
+```
+
+`Lab 1 - CarDealership.java`
+
+```java
+public class CarDealership {
+  
+  private ParkingLot parkingLot;
+  
+  {
+    parkingLot = new ParkingLot();
+  }
+
+  public void addCarToInventory(Car car) {
+    parkingLot.addCar(car);
+  }
+  
+  public Car[] findCarsByModel(String model) {
+    Car[] carsByModel = null;
+    Car[] cars = parkingLot.getCars();
+    
+    // Find out how big the array should be by using a boolean
+    // array and marking the index to true if the model matches,
+    // and adding to the total of matches.
+    // We use this array to avoid iterating through the cars array
+    // and calling .equals() on all the models a second time.
+    boolean[] matchingIndexes = new boolean[cars.length];
+    int numMatchingIndexes = 0;
+    for (int i = 0; i < cars.length; i++) {
+      // check the String input against the car's model
+      if(model.equals(cars[i].getModel())) {
+        matchingIndexes[i] = true;
+        numMatchingIndexes++;
+      }
+    }
+    
+    // now loop through to see which indexes match
+    // use a separate counter to keep track of which carsByModel
+    // index we are on
+    carsByModel = new Car[numMatchingIndexes];
+    int carsByModelCounter = 0;
+    for (int i = 0; i < matchingIndexes.length; i++) {
+      if(matchingIndexes[i]) {
+        carsByModel[carsByModelCounter] = cars[i];
+        carsByModelCounter++;
+      }
+    }
+    
+    return carsByModel;
+  }
+  
+  public Car[] getAllCars() {
+    Car[] repoCars = parkingLot.getCars();
+    
+    // Stretch Goal:
+    // return a copy of the array so that callers cannot modify repository data
+    Car[] allCars = new Car[repoCars.length];
+    for (int i = 0; i < repoCars.length; i++) {
+      allCars[i] = repoCars[i];
+    }
+    
+    return allCars;
+  }
+}
+```
+
+`Lab 1 - CarDealershipTester.java`
+
+```java
+public class CarDealershipTester {
+
+  public static void main(String[] args) {
+    CarDealership dealership = new CarDealership();
+    
+    dealership.addCarToInventory(new Car("Chev", "modeler", "blue", 4));
+    dealership.addCarToInventory(new Car("Chev", "modeler", "green", 4));
+    dealership.addCarToInventory(new Car("For", "other", "yellow", 4));
+    dealership.addCarToInventory(new Car("Foreign", "Modeler", "blue", 6));
+    
+    Car[] allCars = dealership.getAllCars();
+    if(allCars.length != 4) {
+      System.out.println("ERROR in getAllCars. Expected 4 array length but was " + allCars.length);
+    }
+    
+    Car[] modelerCars = dealership.findCarsByModel("modeler");
+    if(modelerCars == null) {
+      System.out.println("ERROR in findCarsByModel. Null array.");
+    }
+    else {
+      System.out.println("findCarsByModel null check success");
+    }
+    
+    if(modelerCars.length != 2) {
+      System.out.println("ERROR, findCarsByModel array length was " + modelerCars.length);
+    }
+    else {
+      System.out.println("findCarsByModel length success");
+    }
+    
+    for (int i = 0; i < modelerCars.length; i++) {
+      Car c = modelerCars[i];
+      if(!"modeler".equals(c.getModel())) {
+        System.out.println("ERROR, car model not modeler");
+      }
+    }
+
+    System.out.println("FINISHED.");
+  }
+
 }
 ```
 
@@ -1003,6 +1492,7 @@ public class Car2 {
 7. Lab - Creating a Class Hierarchy
 
 `Inheritance/com.skilldistillery.inheritance.drills.Employee`
+
 ```java
 public class Employee extends Person {
 
@@ -1012,6 +1502,7 @@ public class Employee extends Person {
 ```
 
 `Inheritance/com.skilldistillery.inheritance.drills`
+
 ```java
 public class TestClass extends Object{
 
@@ -1024,6 +1515,7 @@ public class TestClass extends Object{
 ```
 
 `Inheritance/com.skilldistillery.inheritance.drills.Employee`
+
 ```java
 public class Employee extends Person {
 
@@ -1057,6 +1549,7 @@ public class Employee extends Person {
 ```
 
 `Inheritance/com.skilldistillery.inheritance.drills.EmployeeApp`
+
 ```java
 public class EmployeeApp {
 
@@ -1090,6 +1583,7 @@ public class EmployeeApp {
 ```
 
 `Inheritance/com.skilldistillery.inheritance.drills.Employee`
+
 ```java
 public String getInfo() {
 		return getName() + " " + age + " " + title + " " + Salary;
@@ -1097,6 +1591,7 @@ public String getInfo() {
 ```
 
 `Lab 1 - Vehicle.java`
+
 ```java
 public class Vehicle {
 
@@ -1125,6 +1620,7 @@ public class Vehicle {
 ```
 
 `Lab 2 - Automobile.java`
+
 ```java
 public class Automobile extends Vehicle {
 
@@ -1197,6 +1693,7 @@ public class Automobile extends Vehicle {
 ```
 
 `Lab 3 - Boat.java`
+
 ```java
 public class Boat extends Vehicle {
 
@@ -1224,6 +1721,7 @@ public class Boat extends Vehicle {
 ```
 
 `Lab 4 - Truck.java`
+
 ```java
 public class Truck extends Automobile {
 	protected int bedSizeInCubicFeet;
@@ -1246,6 +1744,7 @@ public class Truck extends Automobile {
 ```
 
 `Lab 5 - VehicleTestApp.java`
+
 ```java
 public class VehicleTestApp {
 
@@ -1268,6 +1767,116 @@ public class VehicleTestApp {
 2. Getters and Setters
 3. Lab - Improving Encapsulation
 
+`Person.java`
+
+```java
+package com.skilldistillery.inheritance.drills;
+
+public class Person {
+	protected String firstName;
+	protected String lastName;
+	protected int age;
+
+	public Person() {
+	}
+
+	public Person(String firstName, String lastName, int age) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
+
+	public String getInfo() {
+		return firstName + " " + lastName + " " + age;
+	}
+
+	public String getName() {
+		return firstName + " " + lastName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
+```
+
+`Employee.java`
+
+```java
+package com.skilldistillery.inheritance.drills;
+
+public class Employee extends Person {
+	private String title;
+	private double salary;
+
+	public Employee() {
+	}
+
+	public Employee(String firstName, String lastName, int age, String title, double salary) {
+		super(firstName, lastName, age);
+		this.title = title;
+		this.salary = salary;
+	}
+
+	// Getters and Setters
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+}
+```
+
+`DataAnalyst.java`
+
+```java
+package com.skilldistillery.inheritance.drills;
+
+public class DataAnalyst extends Employee {
+	private String securityClearance;
+
+	public DataAnalyst(String securityClearance) {
+		this.securityClearance = securityClearance;
+	}
+
+	public String getSecurityClearance() {
+		return securityClearance;
+	}
+
+	public void setSecurityClearance(String securityClearance) {
+		this.securityClearance = securityClearance;
+	}
+
+	public String getInfo() {
+		String name = this.getName();
+		int age = this.getAge();
+		return "Name: " + name + ", Age: " + age + ", Security Clearance: " + securityClearance;
+	}
+}
+```
+
 #### Project: Food Trucks
 
 ### Week 2 - Day 4
@@ -1280,47 +1889,51 @@ public class VehicleTestApp {
 5. Labs
 
 `SuperClasses/com.skilldistillery.inheritance.drills.Employee`
+
 ```java
+package com.skilldistillery.superclasses.drills;
+
+import com.skilldistillery.superclasses.solutions.Person;
+
 public class Employee extends Person {
-  private String title;
-  private double salary;
+	private String title;
+	private double salary;
 
-  public Employee() {
-  }
+	public Employee() {
+	}
 
-  public Employee(String firstName, String lastName, int age,
-      String title, double salary) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-    this.title = title;
-    this.salary = salary;
-  }
-  
-  // Call the parent method
-  public String getInfo() {
-    return super.getInfo() + " " + title + " " + salary;
-  }
+	public Employee(String firstName, String lastName, int age, String title, double salary) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.title = title;
+		this.salary = salary;
+	}
 
-  public String getTitle() {
-    return title;
-  }
+	public String getInfo() {
+		return super.getInfo() + " " + title + " " + salary;
+	}
 
-  public void setTitle(String title) {
-    this.title = title;
-}
+	public String getTitle() {
+		return title;
+	}
 
-public double getSalary() {
-	return salary;
-}
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-public void setSalary(double salary) {
-	this.salary = salary;
-}
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
 }
 ```
 
 `SuperClasses/com.skilldistillery.inheritance.drills.DataAnalyst`
+
 ```java
 import com.skilldistillery.superclasses.drills.Employee;
 
@@ -1352,8 +1965,12 @@ public String getInfo() {
 ```
 
 `SuperClasses/com.skilldistillery.inheritance.drills.EmployeeApp`
+
 ```java
-import com.skilldistillery.superclasses.drills.Person;
+package com.skilldistillery.superclasses.drills;
+
+import com.skilldistillery.superclasses.solutions.DataAnalyst4;
+import com.skilldistillery.superclasses.solutions.Employee6;
 
 public class EmployeeApp {
 
@@ -1371,16 +1988,19 @@ public class EmployeeApp {
 		emp = new Employee6("Bob", "Dobbs", 55, "VP of Sales", 138_000.00);
 		System.out.println(emp.getInfo());
 
-		DataAnalyst dataAnalyst = new DataAnalyst("TOP SECRET", "James", "Java", 45, "Analyst IV", 120_000.00);
+		DataAnalyst4 dataAnalyst = new DataAnalyst4("TOP SECRET", "James", "Java", 45, "Analyst IV", 120_000.00);
 		System.out.println(dataAnalyst.getInfo());
 	}
 }
 ```
 
 `Lab 1 - Vehicle.java`
-```java
-public class Vehicle {
 
+```java
+package com.skilldistillery.superclasses.labs.vehicles;
+
+public class Vehicle {
+	
 	private double purchasePrice;
 
 	public Vehicle(double purchasePrice) {
@@ -1401,9 +2021,34 @@ public class Vehicle {
 }
 ```
 
-`Lab 1 - Automobile.java`
+`Lab 1 - Boat.java`
+
 ```java
-import com.skilldistillery.superclasses.labs.vehicles.Vehicle;
+package com.skilldistillery.superclasses.labs.vehicles;
+
+public class Boat extends Vehicle {
+	protected String name;
+	protected double speedInKnots;
+	protected int lengthInFeet;
+
+	public Boat(double purchasePrice, String name, double speedInKnots, int lengthInFeet) {
+		super(purchasePrice);
+		this.name = name;
+		this.speedInKnots = speedInKnots;
+		this.lengthInFeet = lengthInFeet;
+	}
+
+	public String toString() {
+		return "Boat [purchasePrice=" + getPurchasePrice() + ", name=" + name + ", speedInKnots=" + speedInKnots
+				+ ", lengthInFeet=" + lengthInFeet + "]";
+	}
+}
+```
+
+`Lab 1 - Automobile.java`
+
+```java
+package com.skilldistillery.superclasses.labs.vehicles;
 
 public class Automobile extends Vehicle {
 	private String make;
@@ -1470,8 +2115,9 @@ public class Automobile extends Vehicle {
 ```
 
 `Lab 1 - Truck.java`
+
 ```java
-import com.skilldistillery.superclasses.labs.vehicles.Automobile;
+package com.skilldistillery.superclasses.labs.vehicles;
 
 public class Truck extends Automobile {
 	protected int bedSizeInCubicFeet;
@@ -1492,42 +2138,23 @@ public class Truck extends Automobile {
 }
 ```
 
-`Lab 1 - Boat.java`
-```java
-import com.skilldistillery.superclasses.labs.vehicles.Vehicle;
-
-public class Boat extends Vehicle {
-	protected String name;
-	protected double speedInKnots;
-	protected int lengthInFeet;
-
-	public Boat(double purchasePrice, String name, double speedInKnots, int lengthInFeet) {
-		super(purchasePrice);
-		this.name = name;
-		this.speedInKnots = speedInKnots;
-		this.lengthInFeet = lengthInFeet;
-	}
-
-	public String toString() {
-		return "Boat [purchasePrice=" + getPurchasePrice() + ", name=" + name + ", speedInKnots=" + speedInKnots
-				+ ", lengthInFeet=" + lengthInFeet + "]";
-	}
-}
-```
-
 `Lab 1 - VehicleTestApp`
+
 ```java
+package com.skilldistillery.superclasses.labs.vehicles;
+
 public class VehicleTestApp {
 
-	public static void main(String[] args) {
-		Automobile a = new Automobile3(90000.00, "Dundreary", "Stretch", 2008, 4, 105);
-		Boat b = new Boat3(145000.00, "Reefer", 21, 25);
-		Truck t = new Truck3(22_000, "Vapid", "Bobcat", 2006, 4, 88, 55);
+  public static void main(String[] args) {
+    Automobile a = new Automobile(90000.00, "Dundreary", "Stretch", 2008, 4, 105);
+    Boat b = new Boat(145000.00, "Reefer", 21, 25);
+    Truck t = new Truck(22_000, "Vapid", "Bobcat", 2006, 4, 88, 55);
+    
+    System.out.println(a.toString());
+    System.out.println(b.toString());
+    System.out.println(t.toString());
+  }
 
-		System.out.println(a.toString());
-		System.out.println(b.toString());
-		System.out.println(t.toString());
-	}
 }
 ```
 
@@ -1538,11 +2165,142 @@ public class VehicleTestApp {
 4. Rules for Overriding
 5. Lab - Using Polymorphism
 
+`EmployeePrintingApp.java`
+
+```java
+package com.skilldistillery.polymorphism.drills.employee;
+
+import com.skilldistillery.polymorphism.drills.employee.*;
+
+public class EmployeePrintingApp {
+
+	public static void main(String[] args) {
+		EmployeePrintingApp epa = new EmployeePrintingApp();
+
+		epa.run();
+
+	}
+
+	private void run() {
+		// Create an array of type Employee with space for 3 Employees
+		Employee[] emps = new Employee[3];
+
+		// Create a DataAnalyst, SoftwareDeveloper, and DatabaseAdmin
+		// using the multi-arg constructors for each, and assign each to the array.
+
+		// DataAnalyst(String securityClearance, String firstName, String lastName, int
+		// age, String title, double salary)
+		emps[0] = new DataAnalyst("SECRET", "Harrison", "Ryan", 34, "Analyst I", 76_400);
+
+		// SoftwareDeveloper(String firstName, String lastName, int age, String title,
+		// double salary)
+		emps[1] = new SoftwareDeveloper("William", "Fences", 47, "SoftDev I", 63000.00);
+
+		// DatabaseAdmin(String firstName, String lastName, int age, String title,
+		// double salary)
+		emps[2] = new DatabaseAdmin("Ronnie", "Dobbs", 31, "DBA", 112500.00);
+
+		// Call processEmployees and pass the Employee array reference.
+		processEmployees(emps);
+	}
+
+	// Add a method printEmployeeNameAndTitle that takes an Employee and prints
+	// name - title
+	// to the screen.
+	public void printEmployeeNameAndTitle(Employee emps) {
+		System.out.println(emps.getName() + " - " + emps.getTitle());
+	}
+
+	public void processEmployees(Employee[] employees) {
+		// loop through the Employee array and call printEmployeeNameAndTitle
+		// for each Employee
+		for (Employee employee : employees) {
+			if (employee != null) {
+				printEmployeeNameAndTitle(employee);
+			}
+		}
+	}
+
+}
+```
+
+`Employee.java`
+
+```java
+public void executeJob(String data) {
+	  System.out.println("Executing job " + data);
+  }
+```
+
+`DataAnalyst.java`
+
+```java
+public void executeJob(String data) {
+	  String result = analyzeData(data);
+	  System.out.println(result);
+  }
+```
+
+`DatabaseAdmin.java`
+
+```java
+public void executeJob(String data) {
+	  String result = createTables(data);
+	  System.out.println(result);
+  }
+```
+
+`SoftwareDeveloper.java`
+
+```java
+public void executeJob(String data) {
+	  String result = produceSoftware();
+	  System.out.println(result);
+  }
+```
+
+`ExecuteJobApp.java`
+
+```java
+package com.skilldistillery.polymorphism.drills.employee;
+
+public class ExecuteJobApp {
+
+	public static void main(String[] args) {
+		ExecuteJobApp eja = new ExecuteJobApp();
+		eja.run();
+	}
+
+	private void run() {
+		Employee e0 = new Employee("Jane", "Doer", 55, "Carpenter", 45000);
+		Employee e1 = new DataAnalyst("SECRET", "Harrison", "Ryan", 34, "Analyst I", 76_400);
+		Employee e2 = new SoftwareDeveloper("William", "Fences", 47, "SoftDev I", 63000.00);
+		Employee e3 = new DatabaseAdmin("Ronnie", "Dobbs", 31, "DBA", 112500.00);
+
+		System.out.println(e0.getInfo() + "----");
+		// e0.executeJob("Building Stuff");
+		System.out.println(e1.getInfo() + "----");
+		// e1.executeJob("Secret data A198209");
+		System.out.println(e2.getInfo() + "----");
+		// e2.executeJob("Requirements Doc 12345");
+		System.out.println(e3.getInfo() + "----");
+		// e3.executeJob("USERS");
+	}
+
+}
+```
+
 #### Abstract Classes
 1. Abstract Classes
 2. Abstract Methods
 3. Using Abstract Classes
 4. Labs
+
+`.java`
+
+```java
+
+```
 
 #### Polymorphism and Casting
 1. Casting
